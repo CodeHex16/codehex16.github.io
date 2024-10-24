@@ -1,19 +1,48 @@
-:root {
-	--body-bgcolor: #e4e4e4;
-	--header-bgcolor: #ffffff;
-	--article-bgcolor: #ffffff;
-	--text-color: #000000;
-	--hover-color: #666666;
+@font-face {
+	font-family: "Geist";
+	src: url("./fonts/Geist.woff2");
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--body-bgcolor: #0c0a09;
+		--header-bgcolor: #1c1917;
+		--article-bgcolor: #1c1917;
+		--text-color: #e7e5e4;
+		--hover-color: #a8a29e;
+		--link-color: #a8a29e;
+	}
+	#logo > a > img {
+		filter: invert(1);
+	}
+	.persona > div > a > img {
+		filter: invert(1);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--body-bgcolor: #e4e4e4;
+		--header-bgcolor: #fafaf9;
+		--article-bgcolor: #fafaf9;
+		--text-color: #0c0a09;
+		--hover-color: #78716c;
+		--link-color: #292524;
+	}
 }
 
 html {
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Geist", serif;
 	scroll-padding-top: 5em;
+	background: var(--header-bgcolor);
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 body {
 	margin: 0;
 	background-color: var(--body-bgcolor);
 	color: var(--text-color);
+	padding-bottom: 1em;
 }
 header {
 	margin: 0;
@@ -39,8 +68,8 @@ header h1 {
 	padding: 0;
 }
 
-img {
-	vertical-align: text-bottom;
+#logo > a > img {
+	vertical-align: -0.1em;
 }
 .nav {
 	flex-shrink: 0;
@@ -141,6 +170,21 @@ article {
 .mail {
 	font-size: smaller;
 }
+
+#documenti a {
+	color: var(--link-color)
+}
+#documenti a:hover {
+	color: var(--text-color)
+}
+
+#contatti a {
+	color: var(--link-color)
+}
+#contatti a:hover {
+	color: var(--text-color)
+}
+
 /*media query*/
 @media (max-width: 500px) {
 	.nav {
