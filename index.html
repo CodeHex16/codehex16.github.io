@@ -5,19 +5,15 @@
 		<title>CodeHex16</title>
 		<link rel="stylesheet" href="style.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-			rel="stylesheet" />
-		<link rel="icon" type="image/png" href="/images/favicon/favicon-48x48.png" sizes="48x48" />
-		<link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg" />
-		<link rel="shortcut icon" href="/images/favicon/favicon.ico" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png" />
+			<link rel="icon" type="image/png" href="/images/favicon/favicon-48x48.png" sizes="48x48" />
+			<link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg" />
+			<link rel="shortcut icon" href="/images/favicon/favicon.ico" />
+			<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png" />
 		<meta name="apple-mobile-web-app-title" content="CodeHex16" />
-		<link rel="manifest" href="/images/favicon/site.webmanifest" />
+		<link rel="manifest" href="/images/favicon/site.webmanifest" />		
+		<script src="script.js" type="module"></script>
 	</head>
-	<body>
+	<body onload="fetchDocuments()">
 		<header>
 			<a href="#documenti" class="nav">Documenti</a>
 			<h1 id="logo">
@@ -36,18 +32,6 @@
 					<div id="interni">
 						<h4>Interni</h4>
 						<ul class="link-file">
-							<li>
-								<a href="./verbali/interni/2024-10-21_Incontro-Iniziale.pdf"
-									>Incontro Iniziale</a
-								>
-								<span>2024-10-21</span>
-							</li>
-							<li>
-								<a href="./verbali/interni/2024-10-22_Discussione-Capitolati.pdf"
-									>Discussione Capitolati</a
-								>
-								<span>2024-10-22</span>
-							</li>
 						</ul>
 					</div>
 					<div id="esterni">
@@ -57,7 +41,9 @@
 				</div>
 				<h3>Candidatura</h3>
 				<div id="candidatura">
-
+					<ul class="link-file">
+						
+					</ul>
 				</div>
 			</article>
 			<article id="chi-siamo">
@@ -70,7 +56,7 @@
 				<div id="persone">
 					<div class="persona">
 						<img
-							src="https://avatars.githubusercontent.com/u/81026315?v=4&size=96"
+						src="https://avatars.githubusercontent.com/u/81026315?v=4&size=96"
 							alt="Foto profilo Matteo Bazzan" />
 						<div>
 							<a href="https://github.com/bazz333">
@@ -96,8 +82,8 @@
 					</div>
 					<div class="persona">
 						<img
-							src="https://avatars.githubusercontent.com/u/102372402?v=4&size=96"
-							alt="Foto profilo Filippo Sabbadin" />
+						src="https://avatars.githubusercontent.com/u/102372402?v=4&size=96"
+						alt="Foto profilo Filippo Sabbadin" />
 						<div>
 							<a href="">
 								Filippo Sabbadin
