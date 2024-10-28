@@ -12,20 +12,33 @@ async function fetchDocuments() {
         const cachedData = sessionStorage.getItem('pdfFiles');
         let pdfFiles = cachedData ? JSON.parse(cachedData) : [];
         if (!cachedData) {
-            async function fetchFiles(folderUrl) {
-                const folderResponse = await fetch(folderUrl);
-                const folderData = await folderResponse.json();
 
-                for (const item of folderData) {
-                    if (item.type === 'file' && item.name.endsWith('.pdf')) {
-                        pdfFiles.push(item);
-                    } else if (item.type === 'dir') {
-                        await fetchFiles(item.url);
-                    }
+            const folderResponse = await fetch(folderUrl);
+            const folderData = await folderResponse.json();
+
+            for (const item of folderData) {
+                if (item.type === 'file' && item.name.endsWith('.pdf')) {
+                    pdfFiles.push(item);
+                } else if (item.type === 'dir') {
+                    await fetchFiles(item.url);
                 }
             }
 
-            await fetchFiles(url);
+            const promiseInterni = fetch(url + "verbali/interni");
+            const promiseEsterni = fetch(url + "verbali/esterni");
+            const promiseCandidatura = fetch(url + "1 - candidatura");
+
+            const [interniResponse, esterniResponse, candidaturaResponse] = await Promise.all([promiseInterni, promiseEsterni, promiseCandidatura]);
+            let data = await interniResponse.json();
+            data = data.concat(await esterniResponse.json());
+            data = data.concat(await candidaturaResponse.json());
+
+            for (const item of data) {
+                if (item.type === 'file' && item.name.endsWith('.pdf')) {
+                    pdfFiles.push(item);
+                }
+            }
+
             sessionStorage.setItem('pdfFiles', JSON.stringify(pdfFiles));
         }
 
