@@ -1,5 +1,5 @@
 @font-face {
-	font-family: "Geist", sans-serif;
+	font-family: "Geist";
 	src: url("./fonts/Geist.woff2");
 }
 
@@ -166,6 +166,12 @@ article {
 
 .persona > div > a > img {
 	vertical-align: text-bottom;
+}
+
+.persona > div {
+	display: grid;
+	grid-template-rows: auto auto;
+	gap: 0.4em;
 }
 .mail {
 	font-size: smaller;
