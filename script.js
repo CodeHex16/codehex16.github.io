@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', async () => {
+    await fetchDocuments();
+});
 
 async function fetchDocuments() {
 
@@ -7,36 +10,39 @@ async function fetchDocuments() {
     const url = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/`;
 
     try {
-        const pdfFiles = [];
+        const cachedData = localStorage.getItem('pdfFiles');
+        let pdfFiles = cachedData ? JSON.parse(cachedData) : [];
+        if (!cachedData) {
+            async function fetchFiles(folderUrl) {
+                const folderResponse = await fetch(folderUrl);
+                const folderData = await folderResponse.json();
 
-        async function fetchFiles(folderUrl) {
-            const folderResponse = await fetch(folderUrl);
-            const folderData = await folderResponse.json();
-
-            for (const item of folderData) {
-                if (item.type === 'file' && item.name.endsWith('.pdf')) {
-                    pdfFiles.push(item);
-                } else if (item.type === 'dir') {
-                    await fetchFiles(item.url);
+                for (const item of folderData) {
+                    if (item.type === 'file' && item.name.endsWith('.pdf')) {
+                        pdfFiles.push(item);
+                    } else if (item.type === 'dir') {
+                        await fetchFiles(item.url);
+                    }
                 }
             }
+
+            await fetchFiles(url);
+            localStorage.setItem('pdfFiles', JSON.stringify(pdfFiles));
         }
 
-        await fetchFiles(url);
-
         pdfFiles.forEach(pdf => {
+            let ulElement;
             if (pdf.path.includes("verbali/interni")) {
-                const ulElement = document.querySelector("#interni .link-file");
-                let nameDate = parseName(pdf.name);
-                ulElement.innerHTML += `<li><a href="${pdf.download_url}" target="_blank" class="file-link">${nameDate[0]}</a><span class="file-date">${nameDate[1]}</span></li>`;
+                ulElement = document.querySelector("#interni .link-file");
             } else if (pdf.path.includes("verbali/esterni")) {
-                const ulElement = document.querySelector("#esterni .link-file");
-                let nameDate = parseName(pdf.name);
-                ulElement.innerHTML += `<li><a href="${pdf.download_url}" target="_blank" class="file-link">${nameDate[0]}</a><span class="file-date">${nameDate[1]}</span></li>`;
+                ulElement = document.querySelector("#esterni .link-file");
             } else if (pdf.path.includes("candidatura")) {
-                const ulElement = document.querySelector("#candidatura .link-file");
+                ulElement = document.querySelector("#candidatura .link-file");
+            }
+
+            if (ulElement) {
                 let nameDate = parseName(pdf.name);
-                ulElement.innerHTML += `<li><a href="${pdf.download_url}" target="_blank" class="file-link">${nameDate[0]}</a></li>`;
+                ulElement.innerHTML += `<li><a href="${pdf.download_url}" target="_blank" class="file-link">${nameDate[0]}</a>${nameDate[1] ? `<span class="file-date">${nameDate[1]}</span>` : ''}</li>`;
             }
         });
     } catch {
