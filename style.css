@@ -70,6 +70,8 @@ header h1 {
 
 #logo > a > img {
 	vertical-align: -0.1em;
+	width: 5em;
+	height: 1em;
 }
 .nav {
 	flex-shrink: 0;
