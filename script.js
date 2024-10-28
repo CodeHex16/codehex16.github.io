@@ -1,16 +1,15 @@
+
 document.addEventListener('DOMContentLoaded', async () => {
     await fetchDocuments();
 });
 
 async function fetchDocuments() {
-
-    console.log("FETCHING DOCUMENTS")
     const repoOwner = 'codehex16';
     const repoName = 'documentazione';
     const url = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/`;
 
     try {
-        const cachedData = localStorage.getItem('pdfFiles');
+        const cachedData = sessionStorage.getItem('pdfFiles');
         let pdfFiles = cachedData ? JSON.parse(cachedData) : [];
         if (!cachedData) {
             async function fetchFiles(folderUrl) {
@@ -27,7 +26,7 @@ async function fetchDocuments() {
             }
 
             await fetchFiles(url);
-            localStorage.setItem('pdfFiles', JSON.stringify(pdfFiles));
+            sessionStorage.setItem('pdfFiles', JSON.stringify(pdfFiles));
         }
 
         pdfFiles.forEach(pdf => {
@@ -57,7 +56,7 @@ function parseName(name) {
         let docName = name.split('_')[1].replace('.pdf', '').replace("-", " ");
         fileName = [docName, docDate];
     } else {
-        let docName = name.replace('.pdf', '').replace("-", " ");
+        let docName = name.replace('.pdf', '').replaceAll("-", " ");
         fileName = [docName];
     }
 
