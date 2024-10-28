@@ -12,18 +12,6 @@ async function fetchDocuments() {
         const cachedData = sessionStorage.getItem('pdfFiles');
         let pdfFiles = cachedData ? JSON.parse(cachedData) : [];
         if (!cachedData) {
-
-            const folderResponse = await fetch(folderUrl);
-            const folderData = await folderResponse.json();
-
-            for (const item of folderData) {
-                if (item.type === 'file' && item.name.endsWith('.pdf')) {
-                    pdfFiles.push(item);
-                } else if (item.type === 'dir') {
-                    await fetchFiles(item.url);
-                }
-            }
-
             const promiseInterni = fetch(url + "verbali/interni");
             const promiseEsterni = fetch(url + "verbali/esterni");
             const promiseCandidatura = fetch(url + "1 - candidatura");
