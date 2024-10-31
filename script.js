@@ -54,7 +54,7 @@ function parseName(name) {
     let fileName;
     if (name.includes("_")) {
         let docDate = name.split('_')[0];
-        let docName = name.split('_')[1].replace('.pdf', '').replace("-", " ");
+        let docName = name.split('_')[1].replace('.pdf', '').replaceAll("-", " ");
         fileName = [docName, docDate];
     } else {
         let docName = name.replace('.pdf', '').replaceAll("-", " ");
