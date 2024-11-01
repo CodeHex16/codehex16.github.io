@@ -3,6 +3,23 @@
 	src: url("./fonts/Geist.woff2");
 }
 
+/*media query*/
+@media (max-width: 500px) {
+	.nav {
+		display: none;
+	}
+
+	header {
+		flex-direction: column;
+		gap: 1em;
+	}
+
+	#verbali {
+		grid-template-columns: 1fr;
+		gap: 1em;
+	}
+}
+
 @media (prefers-color-scheme: dark) {
 	:root {
 		--body-bgcolor: #0c0a09;
@@ -27,6 +44,10 @@
 		filter: invert(1);
 		width: 64px;
 		height: 64px;
+	}
+
+	#githublogo {
+		filter: invert(1);
 	}
 }
 
@@ -96,6 +117,11 @@ header h1 {
 .nav:hover {
 	color: var(--hover-color);
 	text-decoration: underline;
+}
+
+#githublogo {
+	width: 1.5em;
+	height: 1.5em;
 }
 
 #logo {
@@ -229,21 +255,4 @@ article {
 
 #contatti a:hover {
 	color: var(--text-color)
-}
-
-/*media query*/
-@media (max-width: 500px) {
-	.nav {
-		display: none;
-	}
-
-	header {
-		flex-direction: column;
-		gap: 1em;
-	}
-
-	#verbali {
-		grid-template-columns: 1fr;
-		gap: 1em;
-	}
 }
