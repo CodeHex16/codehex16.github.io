@@ -3,23 +3,6 @@
 	src: url("./fonts/Geist.woff2");
 }
 
-/*media query*/
-@media (max-width: 500px) {
-	.nav {
-		display: none;
-	}
-
-	header {
-		flex-direction: column;
-		gap: 1em;
-	}
-
-	#verbali {
-		grid-template-columns: 1fr;
-		gap: 1em;
-	}
-}
-
 @media (prefers-color-scheme: dark) {
 	:root {
 		--body-bgcolor: #0c0a09;
@@ -33,17 +16,9 @@
 	#logo>a>img {
 		filter: invert(1);
 	}
-
-	.persona>div>a>img {
+	
+	.github_account::after {
 		filter: invert(1);
-		width: 20px;
-		height: 20px;
-	}
-
-	.persona>div>img {
-		filter: invert(1);
-		width: 64px;
-		height: 64px;
 	}
 
 	#githublogo {
@@ -77,6 +52,7 @@ body {
 	padding-bottom: 1em;
 }
 
+/* HEADER */
 header {
 	margin: 0;
 	background-color: var(--header-bgcolor);
@@ -95,6 +71,7 @@ header {
 
 	position: sticky;
 	top: 0;
+	z-index: 100;
 }
 
 header h1 {
@@ -133,6 +110,7 @@ header h1 {
 	height: 35px;
 }
 
+/* MAIN */
 main {
 	padding-left: 1em;
 	padding-right: 1em;
@@ -255,4 +233,28 @@ article {
 
 #contatti a:hover {
 	color: var(--text-color)
+}
+
+.github_account::after {
+	display: inline-flex;
+	width: 1em;
+	height: 1em;
+	content: url("./images/github.svg");
+}
+
+/*media query*/
+@media (max-width: 500px) {
+	.nav {
+		display: none;
+	}
+
+	header {
+		flex-direction: column;
+		gap: 1em;
+	}
+
+	#verbali {
+		grid-template-columns: 1fr;
+		gap: 1em;
+	}
 }
