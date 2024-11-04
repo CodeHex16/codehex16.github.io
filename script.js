@@ -1,13 +1,12 @@
-
 document.addEventListener('DOMContentLoaded', async () => {
     await fetchDocuments();
 });
 
 async function fetchDocuments() {
-    const viewer = "https://docs.google.com/viewer?url=";
     const repoOwner = 'codehex16';
     const repoName = 'documentazione';
     const url = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/`;
+    const docsUrl = '/docs/'
 
     try {
         const cachedData = sessionStorage.getItem('pdfFiles');
@@ -43,7 +42,7 @@ async function fetchDocuments() {
 
             if (ulElement) {
                 let nameDate = parseName(pdf.name);
-                ulElement.innerHTML += `<li><a href="${viewer+pdf.download_url}" target="_blank" class="file-link">${nameDate[0]}</a>${nameDate[1] ? `<span class="file-date">${nameDate[1]}</span>` : ''}</li>`;
+                ulElement.innerHTML += `<li><a href="${docsUrl+pdf.path}" target="_blank" class="file-link">${nameDate[0]}</a>${nameDate[1] ? `<span class="file-date">${nameDate[1]}</span>` : ''}</li>`;
             }
         });
     } catch {
