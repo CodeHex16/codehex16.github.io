@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 async function fetchDocuments() {
+    const viewer = "https://docs.google.com/viewer?url=";
     const repoOwner = 'codehex16';
     const repoName = 'documentazione';
     const url = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/`;
@@ -42,7 +43,7 @@ async function fetchDocuments() {
 
             if (ulElement) {
                 let nameDate = parseName(pdf.name);
-                ulElement.innerHTML += `<li><a href="${pdf.download_url}" target="_blank" class="file-link">${nameDate[0]}</a>${nameDate[1] ? `<span class="file-date">${nameDate[1]}</span>` : ''}</li>`;
+                ulElement.innerHTML += `<li><a href="${viewer+pdf.download_url}" target="_self" class="file-link">${nameDate[0]}</a>${nameDate[1] ? `<span class="file-date">${nameDate[1]}</span>` : ''}</li>`;
             }
         });
     } catch {
