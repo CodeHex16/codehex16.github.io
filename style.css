@@ -13,10 +13,10 @@
 		--link-color: #a8a29e;
 	}
 
-	#logo>a>img {
+	#logo > a > img {
 		filter: invert(1);
 	}
-	
+
 	.github_account::after {
 		filter: invert(1);
 	}
@@ -79,7 +79,7 @@ header h1 {
 	padding: 0;
 }
 
-#logo>a>img {
+#logo > a > img {
 	vertical-align: -0.1em;
 	width: 5em;
 	height: 1em;
@@ -200,16 +200,16 @@ article {
 	margin-bottom: 1em;
 }
 
-.persona>img {
+.persona > img {
 	border-radius: 50%;
 	width: 4em;
 }
 
-.persona>div>a>img {
+.persona > div > a > img {
 	vertical-align: text-bottom;
 }
 
-.persona>div {
+.persona > div {
 	display: grid;
 	grid-template-rows: auto auto;
 	gap: 0.4em;
@@ -220,26 +220,23 @@ article {
 }
 
 #documenti a {
-	color: var(--link-color)
+	color: var(--link-color);
 }
 
 #documenti a:hover {
-	color: var(--text-color)
+	color: var(--text-color);
 }
 
 #contatti a {
-	color: var(--link-color)
+	color: var(--link-color);
 }
 
 #contatti a:hover {
-	color: var(--text-color)
+	color: var(--text-color);
 }
 
 .github_account::after {
-	display: inline-flex;
-	width: 1em;
-	height: 1em;
-	content: url("./images/github.svg");
+	content: "🔗";
 }
 
 /*media query*/
