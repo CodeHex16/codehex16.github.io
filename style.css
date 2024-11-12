@@ -40,9 +40,9 @@
 }
 
 html {
-	font-family: "Geist", serif;
+	font-family: "Geist", sans-serif;
 	scroll-padding-top: 5em;
-	background: var(--header-bgcolor);
+	background: var(--body-bgcolor);
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
@@ -283,8 +283,8 @@ dd::after {
 	}
 
 	header {
-		flex-direction: row;
-		gap: 1em;
+		display: grid;
+		grid-template-columns: 1fr 2fr 1fr;
 	}
 
 	#verbali {
