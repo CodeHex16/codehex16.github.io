@@ -38,7 +38,7 @@ async function fetchDocuments() {
                 ulElement = document.querySelector("#esterni .link-file");
             } else if (pdf.path.includes("candidatura")) {
                 ulElement = document.querySelector("#candidatura .link-file");
-            }else if (pdf.path.includes("rtb")) {
+            }else if (pdf.path.includes("RTB")) {
                 ulElement = document.querySelector("#rtb .link-file");
             }
 
