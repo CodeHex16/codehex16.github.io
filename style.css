@@ -11,6 +11,7 @@
 		--text-color: #e7e5e4;
 		--hover-color: #a8a29e;
 		--link-color: #a8a29e;
+		--accent-color: #a5b4fc;
 	}
 
 	#logo > a > img {
@@ -34,6 +35,7 @@
 		--text-color: #0c0a09;
 		--hover-color: #78716c;
 		--link-color: #292524;
+		--accent-color: #3b82f6;
 	}
 }
 
@@ -239,14 +241,49 @@ article {
 	content: "🔗";
 }
 
+/* GLOSSARIO */
+h3 {
+	font-size: x-large;
+}
+#alfabeto {
+	display: flex;
+	flex-wrap: wrap;
+	justify-items: center;
+	justify-content: center;
+	gap: 0.8em;
+
+}
+
+dt {
+	font-weight: bold;
+	color: var(--accent-color);
+}
+dt::before {
+	content: "| ";
+}
+dt::after {
+	content: ":";
+}
+dd {
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+dd::before {
+	content: "“";
+}
+dd::after {
+	content: "”";
+}
+
+
 /*media query*/
-@media (max-width: 500px) {
-	.nav {
+@media (max-width: 600px) {
+	.nav.extra {
 		display: none;
 	}
 
 	header {
-		flex-direction: column;
+		flex-direction: row;
 		gap: 1em;
 	}
 

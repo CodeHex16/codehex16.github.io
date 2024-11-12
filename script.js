@@ -38,6 +38,8 @@ async function fetchDocuments() {
                 ulElement = document.querySelector("#esterni .link-file");
             } else if (pdf.path.includes("candidatura")) {
                 ulElement = document.querySelector("#candidatura .link-file");
+            }else if (pdf.path.includes("rtb")) {
+                ulElement = document.querySelector("#rtb .link-file");
             }
 
             if (ulElement) {
