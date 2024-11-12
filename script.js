@@ -15,11 +15,15 @@ async function fetchDocuments() {
             const promiseInterni = fetch(url + "verbali/interni");
             const promiseEsterni = fetch(url + "verbali/esterni");
             const promiseCandidatura = fetch(url + "1 - candidatura");
+            const promiseRTB = fetch(url + "2 - RTB");
 
-            const [interniResponse, esterniResponse, candidaturaResponse] = await Promise.all([promiseInterni, promiseEsterni, promiseCandidatura]);
+            const [interniResponse, esterniResponse, candidaturaResponse, rtbResponse] = await Promise.all([promiseInterni, promiseEsterni, promiseCandidatura, promiseRTB]);
             let data = await interniResponse.json();
             data = data.concat(await esterniResponse.json());
             data = data.concat(await candidaturaResponse.json());
+            data = data.concat(await rtbResponse.json());
+            
+            console.log(data);
 
             for (const item of data) {
                 if (item.type === 'file' && item.name.endsWith('.pdf')) {
@@ -32,6 +36,7 @@ async function fetchDocuments() {
 
         pdfFiles.forEach(pdf => {
             let ulElement;
+            //console.log(pdf.path);
             if (pdf.path.includes("verbali/interni")) {
                 ulElement = document.querySelector("#interni .link-file");
             } else if (pdf.path.includes("verbali/esterni")) {
