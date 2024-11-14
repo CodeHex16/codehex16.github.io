@@ -18,20 +18,12 @@ async function fetchGlossario() {
                 const container = document.getElementById(letteraCorrente);
                 if (container) {
                     container.innerHTML += `<dt id="${termine}">${termine}</dt><dd>${definizione}</dd>`;
+                    container.parentElement.classList.remove('hidden');
                 }
             }
         });
-        hideEmptyLetters();
+        showNotEmptyLetters();
     } catch (error) {
         console.error('Errore nel caricamento del glossario:', error);
     }
-}
-function hideEmptyLetters(){
-    // Hide empty letter containers
-    document.querySelectorAll('.lettera').forEach(container => {
-        const datalist = container.querySelector('dl');
-        if (!datalist.querySelector('dt, dd')) {
-            container.style.display = 'none';
-        }
-    });
 }
