@@ -45,6 +45,7 @@ html {
 	background: var(--body-bgcolor);
 	margin-bottom: 0;
 	padding-bottom: 0;
+	scroll-behavior: smooth;  
 }
 
 body {
