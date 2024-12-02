@@ -41,11 +41,12 @@
 
 html {
 	font-family: "Geist", sans-serif;
-	scroll-padding-top: 5em;
+	scroll-padding-top: 8em;
+	overflow: scroll;
 	background: var(--body-bgcolor);
 	margin-bottom: 0;
 	padding-bottom: 0;
-	scroll-behavior: smooth;  
+	scroll-behavior: smooth;
 }
 
 body {
@@ -256,7 +257,6 @@ h3 {
 	justify-items: center;
 	justify-content: center;
 	gap: 0.8em;
-
 }
 
 dt {
@@ -279,7 +279,6 @@ dd::before {
 dd::after {
 	content: "”";
 }
-
 
 /*media query*/
 @media (max-width: 600px) {
