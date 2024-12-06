@@ -17,7 +17,7 @@ async function fetchGlossario() {
 				const definizione = lines[lines.indexOf(line) + 1].trim(); // da capire quando si arriva alla fine della definizione
 				const container = document.getElementById(letteraCorrente);
 				if (container) {
-					container.innerHTML += `<dt id="${termine}">${termine}</dt><dd>${definizione}</dd>`;
+					container.innerHTML += `<dt id="${toIdCase(termine)}">${termine}</dt><dd>${definizione}</dd>`;
 					container.parentElement.classList.remove("hidden");
 				}
 			}
@@ -25,4 +25,8 @@ async function fetchGlossario() {
 	} catch (error) {
 		console.error("Errore nel caricamento del glossario:", error);
 	}
+}
+
+function toIdCase(str) {
+	return str.toLowerCase().replace(/\s/g, "-");
 }
