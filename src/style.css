@@ -1,6 +1,6 @@
-@font-face {
-	font-family: "Geist";
-	src: url("./fonts/Geist.woff2");
+* {
+	font-family: 'Geist';
+	font-style: normal;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,7 +40,7 @@
 }
 
 html {
-	font-family: "Geist", sans-serif;
+	font-family: 'Geist', sans-serif;
 	scroll-padding-top: 8em;
 	overflow: scroll;
 	background: var(--body-bgcolor);
@@ -140,7 +140,7 @@ article {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	border-radius: 0.5em;
-	max-width: 80vh;
+	max-width: 40em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -244,7 +244,7 @@ article {
 }
 
 .github_account::after {
-	content: "🔗";
+	content: '🔗';
 }
 
 /* GLOSSARIO */
@@ -264,20 +264,20 @@ dt {
 	color: var(--accent-color);
 }
 dt::before {
-	content: "| ";
+	content: '| ';
 }
 dt::after {
-	content: ":";
+	content: ':';
 }
 dd {
 	margin-left: 1em;
 	margin-bottom: 1em;
 }
 dd::before {
-	content: "“";
+	content: '“';
 }
 dd::after {
-	content: "”";
+	content: '”';
 }
 
 /*media query*/
