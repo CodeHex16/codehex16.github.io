@@ -71,10 +71,12 @@ Le norme di progetto sono un insieme di regole, procedure e linee guida che defi
 == ODBC
 ODBC è l'acronimo di "Open Database Connectivity". Si tratta di uno standard che consente alle applicazioni di accedere a database di diversi fornitori utilizzando un'interfaccia standard. ODBC facilita l'accesso ai dati e la loro integrazione tra diverse piattaforme e sistemi di gestione dei database.
 = P
-== Practice
-Il termine practice si riferisce a un'attività o un insieme di attività che vengono eseguite regolarmente per migliorare le competenze e le capacità di un individuo o di un team. Le practice possono essere utilizzate per acquisire esperienza, consolidare le conoscenze e sviluppare abilità specifiche in un determinato campo. Le practice possono essere individuali o collettive e possono essere applicate in diversi contesti, come lo sviluppo software, la gestione dei progetti e la formazione.
 == Piano di Progetto
 Il piano di progetto è un documento che definisce gli obiettivi, le attività, le risorse e la pianificazione temporale di un progetto. Il piano di progetto fornisce una roadmap dettagliata per la realizzazione del progetto, stabilendo le fasi, le milestone, le scadenze e le responsabilità dei membri del team. Il piano di progetto è uno strumento fondamentale per gestire e monitorare l'avanzamento del progetto e garantire il rispetto degli obiettivi prefissati.
+== PoC (Proof of Concept)
+...
+== Practice
+Il termine practice si riferisce a un'attività o un insieme di attività che vengono eseguite regolarmente per migliorare le competenze e le capacità di un individuo o di un team. Le practice possono essere utilizzate per acquisire esperienza, consolidare le conoscenze e sviluppare abilità specifiche in un determinato campo. Le practice possono essere individuali o collettive e possono essere applicate in diversi contesti, come lo sviluppo software, la gestione dei progetti e la formazione.
 == Proponente
 Il proponente è l'ente o l'organizzazione che propone un progetto o un'iniziativa e ne sostiene la realizzazione. Il proponente può essere un'azienda, un'istituzione, un'organizzazione non governativa o un individuo che ha ideato e promosso il progetto. Il proponente è responsabile della definizione degli obiettivi, delle risorse e delle strategie per il successo del progetto.
 == Pull Request
