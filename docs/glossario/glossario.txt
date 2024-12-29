@@ -11,25 +11,30 @@ Un assistente virtuale è un programma informatico progettato per interagire con
 = B
 == Backlog
 Il backlog è un insieme di attività, funzionalità o requisiti che devono essere completati durante lo sviluppo di un progetto software. Il backlog è una lista dinamica che può essere aggiornata e modificata nel corso del tempo per rispondere alle esigenze del progetto. Esistono diversi tipi di backlog, tra cui il product backlog, lo sprint backlog e il release backlog, ciascuno con uno scopo specifico all'interno del processo di sviluppo agile.
+== Backend
 
 == Branch
 Un branch è una copia separata del codice sorgente di un progetto software, utilizzata per sviluppare nuove funzionalità, risolvere bug o testare modifiche senza influenzare il codice principale. I branch consentono ai membri del team di lavorare in modo isolato su specifiche attività e di integrare le modifiche nel codice principale tramite pull request. I branch sono una pratica comune nello sviluppo collaborativo e nel controllo versione del codice.
 
 = C
-== CodeHex16
-CodeHex16 è il nome del gruppo di lavoro.
 == Chatbot
 Un chatbot è un programma informatico progettato per simulare una conversazione umana attraverso chat o messaggi di testo. I chatbot possono essere utilizzati per rispondere a domande, fornire informazioni, assistere gli utenti e automatizzare processi. I chatbot possono essere implementati su diverse piattaforme, come siti web, applicazioni di messaggistica e social media.
+== CodeHex16
+CodeHex16 è il nome del gruppo di lavoro.
+== Color Picker
 == Committente
 Il committente è l'ente o l'organizzazione che commissiona un progetto o un servizio e ne definisce gli obiettivi e i requisiti. Il committente può essere un'azienda, un'istituzione, un'organizzazione non governativa o un individuo che ha interesse a realizzare un progetto specifico. Il committente è responsabile della definizione delle esigenze, del finanziamento e del monitoraggio del progetto.
 = D
 == Discord
 Discord è un'applicazione di chat vocale e testuale progettata per i giocatori. Offre funzionalità avanzate come chat di gruppo, canali vocali, bot personalizzati e molto altro. Discord è ampiamente utilizzato per la comunicazione in tempo reale tra i membri di un team di sviluppo.
+= E
+== Esadecimale
 = F
 == Feedback
 Il feedback è un processo di comunicazione in cui vengono fornite informazioni, opinioni o valutazioni su un determinato argomento o attività. Il feedback può essere positivo o negativo e può essere utilizzato per migliorare le prestazioni, correggere errori, rafforzare comportamenti desiderati o valutare il successo di un progetto. Il feedback è un elemento chiave nel processo di apprendimento, sviluppo e miglioramento continuo.
 == Fornitore
 Il fornitore è l'ente o l'organizzazione che fornisce beni o servizi a un committente in base a un contratto o un accordo. Il fornitore può essere un'azienda, un'istituzione, un'organizzazione non governativa o un individuo che offre prodotti o servizi specifici. Il fornitore è responsabile della realizzazione e della consegna dei beni o servizi richiesti dal committente.
+== FAQ
 = G
 == Github
 GitHub è una piattaforma di hosting per il controllo versione e la collaborazione nello sviluppo software. Permette agli sviluppatori di gestire e tracciare le modifiche del codice sorgente dei loro progetti, sia privati che open source. GitHub facilita il lavoro in team grazie a funzionalità come il tracciamento delle issue, le pull request, le code review e la gestione delle release. La piattaforma è basata sul sistema di controllo versione Git.
