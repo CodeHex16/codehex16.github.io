@@ -50,9 +50,16 @@ Le GitHub Milestone sono traguardi temporali utilizzati per organizzare e pianif
 Le GitHub Labels sono etichette utilizzate per categorizzare e identificare le issue all'interno di un progetto su GitHub. Ogni label è associata a un colore e un nome descrittivo che ne indica il significato. Le GitHub Labels possono essere personalizzate in base alle esigenze del team e utilizzate per classificare le issue in base alla loro priorità, al tipo di attività o alla loro natura.
 == Glossario
 Il glossario è un documento che contiene una raccolta di termini specifici utilizzati all'interno di un progetto o di un settore specifico, accompagnati da definizioni chiare e concise. Il glossario è utile per garantire una corretta comprensione e interpretazione dei termini utilizzati nei documenti e nelle comunicazioni del progetto. Il glossario può essere consultato per chiarire dubbi, standardizzare il linguaggio e facilitare la comunicazione tra i membri del team.
+= H
+== HTML
+
 = I
 == Interfaccia web
 Un'interfaccia web è un'interfaccia utente basata su web che consente agli utenti di interagire con un'applicazione o un sistema tramite un browser web. Le interfacce web possono includere elementi come pulsanti, menu, form, tabelle e grafici per consentire agli utenti di navigare, inserire dati, visualizzare informazioni e interagire con il sistema. Le interfacce web sono progettate per essere intuitive, responsive e accessibili da diversi dispositivi e piattaforme.
+
+= J 
+== JavaScript
+
 = L
 == LLM
 Un LLM (Large Language Model) è un modello linguistico di intelligenza artificiale di grandi dimensioni che utilizza tecniche di machine learning per comprendere e generare linguaggio umano. Utilizza modelli basati su reti neurali e tecniche di elaborazione del linguaggio naturale (NLP) per calcolare e generare i loro risultati.
@@ -97,6 +104,10 @@ Lo sprint review è un evento che si svolge alla fine di ogni sprint nello svilu
 Uno standard è un insieme di regole, linee guida o specifiche che definiscono un modello di riferimento per un determinato settore o campo di applicazione. Gli standard sono utilizzati per garantire la qualità, l'interoperabilità e la compatibilità dei prodotti e dei servizi. Gli standard possono essere sviluppati da organizzazioni internazionali, enti di standardizzazione o consorzi industriali e possono essere obbligatori o volontari.
 == Sincrona
 La sincronia è un paradigma di programmazione in cui le operazioni vengono eseguite in modo sequenziale e sincronizzato. In un sistema sincrono, le operazioni vengono eseguite in modo ordinato e coordinato, garantendo che una operazione venga completata prima che ne inizi un'altra. La sincronia è utilizzata per gestire operazioni che dipendono l'una dall'altra o che richiedono un'elaborazione sequenziale.
+== Suppl-AI
+
+== Svelte
+
 = T
 == Task
 Una task è un'attività o un compito specifico che deve essere completato entro un determinato periodo di tempo. Le task sono utilizzate per organizzare il lavoro, definire le responsabilità e monitorare lo stato di avanzamento di un progetto. Le task possono essere suddivise in attività più piccole, assegnate a singoli membri del team e monitorate tramite strumenti di gestione delle attività.
@@ -109,6 +120,10 @@ Typst è un linguaggio di markup testuale sviluppato appositamente per la stesur
 = U
 == Use Case
 Un use case è un'istanza di interazione tra un attore esterno e un sistema software che descrive un determinato scenario o funzionalità. Gli use case sono utilizzati per modellare i requisiti funzionali di un sistema, identificare i casi d'uso e definire le interazioni tra gli attori e il sistema. Gli use case sono spesso rappresentati tramite diagrammi UML e sono utilizzati come base per la progettazione e lo sviluppo del sistema.
+
+= V
+== Vue.js
+
 = W
 == Way of Working
 Il Way of Working è un insieme di pratiche, processi e strumenti utilizzati da un team per organizzare il lavoro e collaborare in modo efficace. Il Way of Working definisce le regole, le procedure e le responsabilità all'interno del team e stabilisce le modalità di comunicazione, pianificazione e valutazione delle attività. Un Way of Working ben definito è fondamentale per garantire la coerenza, la qualità e l'efficienza del lavoro svolto.
