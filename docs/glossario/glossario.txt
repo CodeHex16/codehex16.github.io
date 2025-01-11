@@ -3,6 +3,8 @@
 Un account è un'identità digitale utilizzata per accedere a un sistema informatico, a un'applicazione o a un servizio online. Gli account possono includere un nome utente, una password, un'indirizzo email o altri dati personali utilizzati per autenticare l'utente e garantire l'accesso autorizzato alle risorse. Gli account possono essere creati, gestiti e cancellati dagli utenti o dagli amministratori del sistema.
 == Analisi dei Requisiti
 L'analisi dei requisiti è il processo di raccolta, analisi e definizione dei requisiti di un sistema software. Gli obiettivi dell'analisi dei requisiti sono identificare le esigenze degli utenti, definire le funzionalità del sistema e stabilire i vincoli di progetto. L'analisi dei requisiti è una fase critica nello sviluppo software e fornisce la base per la progettazione e l'implementazione del sistema.
+== API
+//TODO: definizione
 == Asincrona
 L'asincronia è un paradigma di programmazione in cui le operazioni vengono eseguite in modo indipendente e non sequenziale. In un sistema asincrono, le operazioni possono essere avviate e completate in momenti diversi, senza dover attendere il completamento di una precedente. L'asincronia è utilizzata per gestire operazioni lunghe, non bloccanti o non deterministiche, migliorando l'efficienza e la reattività del sistema.
 == Assistente virtuale
@@ -12,7 +14,7 @@ Un assistente virtuale è un programma informatico progettato per interagire con
 == Backlog
 Il backlog è un insieme di attività, funzionalità o requisiti che devono essere completati durante lo sviluppo di un progetto software. Il backlog è una lista dinamica che può essere aggiornata e modificata nel corso del tempo per rispondere alle esigenze del progetto. Esistono diversi tipi di backlog, tra cui il product backlog, lo sprint backlog e il release backlog, ciascuno con uno scopo specifico all'interno del processo di sviluppo agile.
 == Backend
-
+//TODO: definizione
 == Branch
 Un branch è una copia separata del codice sorgente di un progetto software, utilizzata per sviluppare nuove funzionalità, risolvere bug o testare modifiche senza influenzare il codice principale. I branch consentono ai membri del team di lavorare in modo isolato su specifiche attività e di integrare le modifiche nel codice principale tramite pull request. I branch sono una pratica comune nello sviluppo collaborativo e nel controllo versione del codice.
 
@@ -22,19 +24,25 @@ Un chatbot è un programma informatico progettato per simulare una conversazione
 == CodeHex16
 CodeHex16 è il nome del gruppo di lavoro.
 == Color Picker
+//TODO: definizione
 == Committente
 Il committente è l'ente o l'organizzazione che commissiona un progetto o un servizio e ne definisce gli obiettivi e i requisiti. Il committente può essere un'azienda, un'istituzione, un'organizzazione non governativa o un individuo che ha interesse a realizzare un progetto specifico. Il committente è responsabile della definizione delle esigenze, del finanziamento e del monitoraggio del progetto.
+== Context window
+//TODO: tradurre definizione
+Maximum number of combined input & output tokens. Output tokens commonly have a significantly lower limit (varied by model).
 = D
 == Discord
 Discord è un'applicazione di chat vocale e testuale progettata per i giocatori. Offre funzionalità avanzate come chat di gruppo, canali vocali, bot personalizzati e molto altro. Discord è ampiamente utilizzato per la comunicazione in tempo reale tra i membri di un team di sviluppo.
 = E
 == Esadecimale
+//TODO: definizione
 = F
 == Feedback
 Il feedback è un processo di comunicazione in cui vengono fornite informazioni, opinioni o valutazioni su un determinato argomento o attività. Il feedback può essere positivo o negativo e può essere utilizzato per migliorare le prestazioni, correggere errori, rafforzare comportamenti desiderati o valutare il successo di un progetto. Il feedback è un elemento chiave nel processo di apprendimento, sviluppo e miglioramento continuo.
 == Fornitore
 Il fornitore è l'ente o l'organizzazione che fornisce beni o servizi a un committente in base a un contratto o un accordo. Il fornitore può essere un'azienda, un'istituzione, un'organizzazione non governativa o un individuo che offre prodotti o servizi specifici. Il fornitore è responsabile della realizzazione e della consegna dei beni o servizi richiesti dal committente.
 == FAQ
+//TODO: definizione
 = G
 == Github
 GitHub è una piattaforma di hosting per il controllo versione e la collaborazione nello sviluppo software. Permette agli sviluppatori di gestire e tracciare le modifiche del codice sorgente dei loro progetti, sia privati che open source. GitHub facilita il lavoro in team grazie a funzionalità come il tracciamento delle issue, le pull request, le code review e la gestione delle release. La piattaforma è basata sul sistema di controllo versione Git.
@@ -50,23 +58,29 @@ Le GitHub Milestone sono traguardi temporali utilizzati per organizzare e pianif
 Le GitHub Labels sono etichette utilizzate per categorizzare e identificare le issue all'interno di un progetto su GitHub. Ogni label è associata a un colore e un nome descrittivo che ne indica il significato. Le GitHub Labels possono essere personalizzate in base alle esigenze del team e utilizzate per classificare le issue in base alla loro priorità, al tipo di attività o alla loro natura.
 == Glossario
 Il glossario è un documento che contiene una raccolta di termini specifici utilizzati all'interno di un progetto o di un settore specifico, accompagnati da definizioni chiare e concise. Il glossario è utile per garantire una corretta comprensione e interpretazione dei termini utilizzati nei documenti e nelle comunicazioni del progetto. Il glossario può essere consultato per chiarire dubbi, standardizzare il linguaggio e facilitare la comunicazione tra i membri del team.
+== GPT-4o mini
+//TODO: definizione
+== GPT-o1 mini
+//TODO: definizione
 = H
 == HTML
-
+//TODO: definizione
 = I
+== Input tokens
+//TODO: definizione
 == Interfaccia web
 Un'interfaccia web è un'interfaccia utente basata su web che consente agli utenti di interagire con un'applicazione o un sistema tramite un browser web. Le interfacce web possono includere elementi come pulsanti, menu, form, tabelle e grafici per consentire agli utenti di navigare, inserire dati, visualizzare informazioni e interagire con il sistema. Le interfacce web sono progettate per essere intuitive, responsive e accessibili da diversi dispositivi e piattaforme.
 
 = J 
 == JavaScript
-
+//TODO: definizione
 = L
 == LLM
 Un LLM (Large Language Model) è un modello linguistico di intelligenza artificiale di grandi dimensioni che utilizza tecniche di machine learning per comprendere e generare linguaggio umano. Utilizza modelli basati su reti neurali e tecniche di elaborazione del linguaggio naturale (NLP) per calcolare e generare i loro risultati.
 = M
 == Meeting
 Un meeting è un incontro formale o informale tra due o più persone per discutere, condividere informazioni, prendere decisioni o risolvere problemi. I meeting possono essere organizzati in vari formati, come riunioni fis
-
+//TODO: finire definizione?
 == Middleware
 Il middleware è un software che si colloca tra il sistema operativo e le applicazioni, facilitando la comunicazione e lo scambio di dati tra di essi. Il middleware svolge un ruolo fondamentale nell'integrazione di sistemi eterogenei e nella creazione di architetture distribuite. Esistono diversi tipi di middleware, tra cui i message broker, i web server e i database server.
 = N
@@ -79,11 +93,18 @@ Le norme di progetto sono un insieme di regole, procedure e linee guida che defi
 = O
 == ODBC
 ODBC è l'acronimo di "Open Database Connectivity". Si tratta di uno standard che consente alle applicazioni di accedere a database di diversi fornitori utilizzando un'interfaccia standard. ODBC facilita l'accesso ai dati e la loro integrazione tra diverse piattaforme e sistemi di gestione dei database.
+== OpenAI
+//TODO: definizione
+== Output speed
+//TODO: tradurre definizione
+Tokens per second received while the model is generating tokens (ie. after first chunk has been received from the API for models which support streaming).
+== Output tokens
+//TODO: definizione
 = P
 == Piano di Progetto
 Il piano di progetto è un documento che definisce gli obiettivi, le attività, le risorse e la pianificazione temporale di un progetto. Il piano di progetto fornisce una roadmap dettagliata per la realizzazione del progetto, stabilendo le fasi, le milestone, le scadenze e le responsabilità dei membri del team. Il piano di progetto è uno strumento fondamentale per gestire e monitorare l'avanzamento del progetto e garantire il rispetto degli obiettivi prefissati.
 == PoC (Proof of Concept)
-...
+//TODO: definizione
 == Practice
 Il termine practice si riferisce a un'attività o un insieme di attività che vengono eseguite regolarmente per migliorare le competenze e le capacità di un individuo o di un team. Le practice possono essere utilizzate per acquisire esperienza, consolidare le conoscenze e sviluppare abilità specifiche in un determinato campo. Le practice possono essere individuali o collettive e possono essere applicate in diversi contesti, come lo sviluppo software, la gestione dei progetti e la formazione.
 == Proponente
@@ -105,9 +126,9 @@ Uno standard è un insieme di regole, linee guida o specifiche che definiscono u
 == Sincrona
 La sincronia è un paradigma di programmazione in cui le operazioni vengono eseguite in modo sequenziale e sincronizzato. In un sistema sincrono, le operazioni vengono eseguite in modo ordinato e coordinato, garantendo che una operazione venga completata prima che ne inizi un'altra. La sincronia è utilizzata per gestire operazioni che dipendono l'una dall'altra o che richiedono un'elaborazione sequenziale.
 == Suppl-AI
-
+//TODO: definizione
 == Svelte
-
+//TODO: definizione
 = T
 == Task
 Una task è un'attività o un compito specifico che deve essere completato entro un determinato periodo di tempo. Le task sono utilizzate per organizzare il lavoro, definire le responsabilità e monitorare lo stato di avanzamento di un progetto. Le task possono essere suddivise in attività più piccole, assegnate a singoli membri del team e monitorate tramite strumenti di gestione delle attività.
@@ -115,15 +136,19 @@ Una task è un'attività o un compito specifico che deve essere completato entro
 Telegram è un servizio di messaggistica istantanea basato su cloud e sviluppato da Telegram Messenger LLP, una società con sede a Londra. È disponibile su dispositivi mobili e desktop ed è noto per la sua attenzione alla sicurezza e alla privacy degli utenti. Telegram supporta chat di gruppo, canali, bot e molto altro.
 == Tecnologie innovative
 Le tecnologie innovative sono soluzioni, strumenti o approcci che rappresentano un avanzamento significativo rispetto alle tecnologie esistenti. Queste tecnologie possono essere utilizzate per risolvere problemi complessi, migliorare l'efficienza e l'esperienza utente, o creare nuove opportunità di business. Alcuni esempi di tecnologie innovative includono l'intelligenza artificiale, il machine learning, la realtà aumentata e la blockchain.
+== Token
+//TOOD: definizione
 == Typst
 Typst è un linguaggio di markup testuale sviluppato appositamente per la stesura di documenti. È stato scelto per la sua semplicità d'uso e la versatilità.
 = U
+== UML
+//TODO: definizione
 == Use Case
 Un use case è un'istanza di interazione tra un attore esterno e un sistema software che descrive un determinato scenario o funzionalità. Gli use case sono utilizzati per modellare i requisiti funzionali di un sistema, identificare i casi d'uso e definire le interazioni tra gli attori e il sistema. Gli use case sono spesso rappresentati tramite diagrammi UML e sono utilizzati come base per la progettazione e lo sviluppo del sistema.
 
 = V
 == Vue.js
-
+//TODO: definizione
 = W
 == Way of Working
 Il Way of Working è un insieme di pratiche, processi e strumenti utilizzati da un team per organizzare il lavoro e collaborare in modo efficace. Il Way of Working definisce le regole, le procedure e le responsabilità all'interno del team e stabilisce le modalità di comunicazione, pianificazione e valutazione delle attività. Un Way of Working ben definito è fondamentale per garantire la coerenza, la qualità e l'efficienza del lavoro svolto.
