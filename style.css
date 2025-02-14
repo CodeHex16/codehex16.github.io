@@ -7,7 +7,7 @@
 	:root {
 		--body-bgcolor: #0c0a09;
 		--header-bgcolor: #1c1917;
-		--article-bgcolor: #1c1917;
+		--section-bgcolor: #1c1917;
 		--text-color: #e7e5e4;
 		--hover-color: #a8a29e;
 		--link-color: #a8a29e;
@@ -31,7 +31,7 @@
 	:root {
 		--body-bgcolor: #e4e4e4;
 		--header-bgcolor: #fafaf9;
-		--article-bgcolor: #fafaf9;
+		--section-bgcolor: #fafaf9;
 		--text-color: #0c0a09;
 		--hover-color: #78716c;
 		--link-color: #292524;
@@ -131,12 +131,12 @@ hr {
 	margin-bottom: 2em;
 }
 
-article {
+section {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-left: 1em;
 	padding-right: 1em;
-	background-color: var(--article-bgcolor);
+	background-color: var(--section-bgcolor);
 	margin-top: 1em;
 	margin-bottom: 1em;
 	border-radius: 0.5em;
@@ -145,19 +145,19 @@ article {
 	margin-right: auto;
 }
 
-#verbali {
+.verbali {
 	display: grid;
 	grid-template-columns: auto auto;
 	justify-content: start;
 	gap: 2em;
 }
 
-#verbali h4 {
+.verbali h4 {
 	margin-top: 0;
 	margin-bottom: 0.5em;
 }
 
-#verbali div {
+.verbali div {
 	max-width: fit-content;
 }
 
@@ -295,4 +295,23 @@ dd::after {
 		grid-template-columns: 1fr;
 		gap: 1em;
 	}
+}
+
+.accordion-header {
+	cursor: pointer;
+	position: relative;
+	padding-right: 1.5em; /* spazio per l'icona */
+}
+
+/* Aggiunge la freccia a destra dell'header */
+.accordion-header::after {
+	content: "▼";
+	position: absolute;
+	right: 0;
+	transition: transform 0.3s;
+}
+
+/* Ruota la freccia quando l'header è attivo */
+.accordion-header.active::after {
+	transform: rotate(180deg);
 }

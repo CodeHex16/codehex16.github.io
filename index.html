@@ -18,7 +18,7 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png" />
 		<meta name="apple-mobile-web-app-title" content="CodeHex16" />
 		<link rel="manifest" href="/images/favicon/site.webmanifest" />
-		<script src="script.js"></script>
+		<script src="populateSection.js"></script>
 	</head>
 	<body>
 		<header>
@@ -39,29 +39,11 @@
 			/></a>
 		</header>
 		<main>
-			<article id="documenti">
-				<h2>Documenti 📑</h2>
-				<h3>Verbali</h3>
-				<div id="verbali">
-					<div id="interni">
-						<h4>Interni</h4>
-						<ul class="link-file"></ul>
-					</div>
-					<div id="esterni">
-						<h4>Esterni</h4>
-						<ul class="link-file"></ul>
-					</div>
-				</div>
-				<h3>Candidatura</h3>
-				<div id="candidatura">
-					<ul class="link-file"></ul>
-				</div>
-				<h3><abbr title="Requirements and Technology Baseline">RTB</abbr></h3>
-				<div id="rtb">
-					<ul class="link-file"></ul>
-				</div>
-			</article>
-			<article id="chi-siamo">
+			<section id="documenti">
+				<h1>Documenti <span aria-hidden="true">📑</span></h1>
+				<div id="documenti-container"></div>
+			</section>
+			<section id="chi-siamo">
 				<h2>Chi siamo</h2>
 				<p>
 					Siamo <strong>CodeHex16</strong>, il gruppo 16 del Progetto di SWE
@@ -161,14 +143,14 @@
 						</div>
 					</div>
 				</div>
-			</article>
-			<article id="contatti">
+			</section>
+			<section id="contatti">
 				<h2>Contatti</h2>
 				<p>
 					Per contattarci scrivere a
 					<a href="mailto:unipd.codehex16@gmail.com">unipd.codehex16@gmail.com</a>
 				</p>
-			</article>
+			</section>
 		</main>
 	</body>
 </html>
