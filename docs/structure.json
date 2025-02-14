@@ -1,5 +1,5 @@
 {
-  "name": ".",
+  "name": "docs",
   "type": "directory",
   "children": [
     {
@@ -10,89 +10,6 @@
           "name": "Norme-di-Progetto.pdf",
           "type": "file",
           "size": 567981
-        },
-        {
-          "name": "verbali",
-          "type": "directory",
-          "children": [
-            {
-              "name": "esterni",
-              "type": "directory",
-              "children": [
-                {
-                  "name": "2025-01-13_Incontro-Ergon-analisi-poc-chiarimenti_firmato.pdf",
-                  "type": "file",
-                  "size": 490139
-                },
-                {
-                  "name": "2024-12-11_Incontro-chiarimenti-analisi-Ergon_firmato.pdf",
-                  "type": "file",
-                  "size": 497835
-                },
-                {
-                  "name": "2024-11-11_Incontro-chiarimenti-Ergon_firmato.pdf",
-                  "type": "file",
-                  "size": 491208
-                }
-              ]
-            },
-            {
-              "name": "interni",
-              "type": "directory",
-              "children": [
-                {
-                  "name": "2024-11-08_Discussione-aggiudicazione.pdf",
-                  "type": "file",
-                  "size": 413569
-                },
-                {
-                  "name": "2024-11-19_Scelte-organizzative-e-coordinamento.pdf",
-                  "type": "file",
-                  "size": 429436
-                },
-                {
-                  "name": "2024-12-24_Coordinamento-Sprint-5.pdf",
-                  "type": "file",
-                  "size": 424643
-                },
-                {
-                  "name": "2025-01-22_Coordinamento-Sprint-7.pdf",
-                  "type": "file",
-                  "size": 418707
-                },
-                {
-                  "name": "2024-11-12_Inizio-stesura-documenti-RTB.pdf",
-                  "type": "file",
-                  "size": 419773
-                },
-                {
-                  "name": "2024-12-04_Coordinamento-Sprint-3.pdf",
-                  "type": "file",
-                  "size": 418385
-                },
-                {
-                  "name": "2024-11-11_Discussione-Requisiti.pdf",
-                  "type": "file",
-                  "size": 410688
-                },
-                {
-                  "name": "2024-11-26_Coordinamento-Sprint-2.pdf",
-                  "type": "file",
-                  "size": 416241
-                },
-                {
-                  "name": "2024-12-11_Coordinamento-Sprint-4.pdf",
-                  "type": "file",
-                  "size": 424275
-                },
-                {
-                  "name": "2025-01-06_Coordinamento-Sprint-6.pdf",
-                  "type": "file",
-                  "size": 594285
-                }
-              ]
-            }
-          ]
         },
         {
           "name": "Analisi-dei-Requisiti.pdf",
@@ -108,163 +25,87 @@
           "name": "Piano-di-Progetto.pdf",
           "type": "file",
           "size": 1727022
-        }
-      ]
-    },
-    {
-      "name": "glossario",
-      "type": "directory",
-      "children": [
-        {
-          "name": "glossario.txt",
-          "type": "file",
-          "size": 22376
         },
         {
-          "name": "glossario.pdf",
-          "type": "file",
-          "size": 568123
-        }
-      ]
-    },
-    {
-      "name": "verbali",
-      "type": "directory",
-      "children": [
-        {
-          "name": "esterni",
+          "name": "verbali",
           "type": "directory",
           "children": [
             {
-              "name": "2025-01-13_Incontro-Ergon-analisi-poc-chiarimenti_firmato.pdf",
-              "type": "file",
-              "size": 490139
+              "name": "esterni",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "2025-01-13_Incontro-Ergon-analisi-poc-chiarimenti_firmato.pdf",
+                  "type": "file",
+                  "size": 490139
+                },
+                {
+                  "name": "2024-11-11_Incontro-chiarimenti-Ergon_firmato.pdf",
+                  "type": "file",
+                  "size": 491208
+                },
+                {
+                  "name": "2024-12-11_Incontro-chiarimenti-analisi-Ergon_firmato.pdf",
+                  "type": "file",
+                  "size": 497835
+                }
+              ]
             },
             {
-              "name": "2024-12-11_Incontro-chiarimenti-analisi-Ergon.pdf",
-              "type": "file",
-              "size": 421977
-            },
-            {
-              "name": "2024-11-11_Incontro-chiarimenti-Ergon.pdf",
-              "type": "file",
-              "size": 416277
-            },
-            {
-              "name": "2024-10-25_Incontro-Ergon_firmato.pdf",
-              "type": "file",
-              "size": 492622
-            },
-            {
-              "name": "2024-12-11_Incontro-chiarimenti-analisi-Ergon_firmato.pdf",
-              "type": "file",
-              "size": 497835
-            },
-            {
-              "name": "2024-11-11_Incontro-chiarimenti-Ergon_firmato.pdf",
-              "type": "file",
-              "size": 491208
-            },
-            {
-              "name": "2025-01-13-Incontro-Ergon-analisi-poc-chiarimenti.pdf",
-              "type": "file",
-              "size": 418645
-            },
-            {
-              "name": "2025-01-13-Incontro-Ergon-analisi-poc-chiarimenti_firmato.pdf",
-              "type": "file",
-              "size": 490139
-            }
-          ]
-        },
-        {
-          "name": "interni",
-          "type": "directory",
-          "children": [
-            {
-              "name": "2024-11-08_Discussione-aggiudicazione.pdf",
-              "type": "file",
-              "size": 413569
-            },
-            {
-              "name": "2024-11-04_Correzione-candidatura.pdf",
-              "type": "file",
-              "size": 425253
-            },
-            {
-              "name": "2024-11-19_Scelte-organizzative-e-coordinamento.pdf",
-              "type": "file",
-              "size": 429436
-            },
-            {
-              "name": "2024-12-24_Coordinamento-Sprint-5.pdf",
-              "type": "file",
-              "size": 424643
-            },
-            {
-              "name": "2025-01-22_Coordinamento-Sprint-7.pdf",
-              "type": "file",
-              "size": 418707
-            },
-            {
-              "name": "2024-10-22_Discussione-Capitolati.pdf",
-              "type": "file",
-              "size": 433346
-            },
-            {
-              "name": "2024-11-12_Inizio-stesura-documenti-RTB.pdf",
-              "type": "file",
-              "size": 419773
-            },
-            {
-              "name": "2024-10-21_Incontro-Iniziale.pdf",
-              "type": "file",
-              "size": 420798
-            },
-            {
-              "name": "2024-10-28_Revisione-documenti.pdf",
-              "type": "file",
-              "size": 423040
-            },
-            {
-              "name": "2024-12-04_Coordinamento-Sprint-3.pdf",
-              "type": "file",
-              "size": 418385
-            },
-            {
-              "name": "2024-11-11_Discussione-Requisiti.pdf",
-              "type": "file",
-              "size": 410688
-            },
-            {
-              "name": "2024-11-26_Coordinamento-Sprint-2.pdf",
-              "type": "file",
-              "size": 416241
-            },
-            {
-              "name": "2024-11-04_Correzione_candidatura.pdf",
-              "type": "file",
-              "size": 422619
-            },
-            {
-              "name": "2024-10-31_Lettera-e-Revisione-finale.pdf",
-              "type": "file",
-              "size": 403419
-            },
-            {
-              "name": "2024-11-12_Inizio-stesura_documenti_RTB.pdf",
-              "type": "file",
-              "size": 415801
-            },
-            {
-              "name": "2024-12-11_Coordinamento-Sprint-4.pdf",
-              "type": "file",
-              "size": 424275
-            },
-            {
-              "name": "2025-01-06_Coordinamento-Sprint-6.pdf",
-              "type": "file",
-              "size": 594285
+              "name": "interni",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "2024-11-08_Discussione-aggiudicazione.pdf",
+                  "type": "file",
+                  "size": 413569
+                },
+                {
+                  "name": "2025-01-22_Coordinamento-Sprint-7.pdf",
+                  "type": "file",
+                  "size": 418707
+                },
+                {
+                  "name": "2024-11-26_Coordinamento-Sprint-2.pdf",
+                  "type": "file",
+                  "size": 416241
+                },
+                {
+                  "name": "2025-01-06_Coordinamento-Sprint-6.pdf",
+                  "type": "file",
+                  "size": 594285
+                },
+                {
+                  "name": "2024-11-19_Scelte-organizzative-e-coordinamento.pdf",
+                  "type": "file",
+                  "size": 429436
+                },
+                {
+                  "name": "2024-11-11_Discussione-Requisiti.pdf",
+                  "type": "file",
+                  "size": 410688
+                },
+                {
+                  "name": "2024-11-12_Inizio-stesura-documenti-RTB.pdf",
+                  "type": "file",
+                  "size": 419773
+                },
+                {
+                  "name": "2024-12-11_Coordinamento-Sprint-4.pdf",
+                  "type": "file",
+                  "size": 424275
+                },
+                {
+                  "name": "2024-12-24_Coordinamento-Sprint-5.pdf",
+                  "type": "file",
+                  "size": 424643
+                },
+                {
+                  "name": "2024-12-04_Coordinamento-Sprint-3.pdf",
+                  "type": "file",
+                  "size": 418385
+                }
+              ]
             }
           ]
         }
@@ -279,6 +120,21 @@
       "name": "1 - candidatura",
       "type": "directory",
       "children": [
+        {
+          "name": "Valutazione-Capitolati.pdf",
+          "type": "file",
+          "size": 466846
+        },
+        {
+          "name": "Lettera-di-candidatura.pdf",
+          "type": "file",
+          "size": 423944
+        },
+        {
+          "name": "Preventivo-Costi-e-Impegni.pdf",
+          "type": "file",
+          "size": 416756
+        },
         {
           "name": "verbali",
           "type": "directory",
@@ -304,11 +160,6 @@
                   "size": 425253
                 },
                 {
-                  "name": "2024-10-22_Discussione-Capitolati.pdf",
-                  "type": "file",
-                  "size": 433346
-                },
-                {
                   "name": "2024-10-21_Incontro-Iniziale.pdf",
                   "type": "file",
                   "size": 420798
@@ -322,25 +173,15 @@
                   "name": "2024-10-31_Lettera-e-Revisione-finale.pdf",
                   "type": "file",
                   "size": 403419
+                },
+                {
+                  "name": "2024-10-22_Discussione-Capitolati.pdf",
+                  "type": "file",
+                  "size": 433346
                 }
               ]
             }
           ]
-        },
-        {
-          "name": "Preventivo-Costi-e-Impegni.pdf",
-          "type": "file",
-          "size": 416756
-        },
-        {
-          "name": "Lettera-di-candidatura.pdf",
-          "type": "file",
-          "size": 423944
-        },
-        {
-          "name": "Valutazione-Capitolati.pdf",
-          "type": "file",
-          "size": 466846
         }
       ]
     },
@@ -349,19 +190,19 @@
       "type": "directory",
       "children": [
         {
+          "name": "5 Diario di bordo.pdf",
+          "type": "file",
+          "size": 341366
+        },
+        {
+          "name": "3 Diario di bordo.pdf",
+          "type": "file",
+          "size": 305763
+        },
+        {
           "name": "8 Diario di bordo.pdf",
           "type": "file",
           "size": 350893
-        },
-        {
-          "name": "6 Diario di bordo.pdf",
-          "type": "file",
-          "size": 340887
-        },
-        {
-          "name": "2 Diario di bordo.pdf",
-          "type": "file",
-          "size": 341873
         },
         {
           "name": "7 Diario di bordo.pdf",
@@ -374,24 +215,183 @@
           "size": 340577
         },
         {
-          "name": "3 Diario di bordo.pdf",
-          "type": "file",
-          "size": 305763
-        },
-        {
-          "name": "5 Diario di bordo.pdf",
-          "type": "file",
-          "size": 341366
-        },
-        {
           "name": "1 Diario di bordo.pdf",
           "type": "file",
           "size": 346250
         },
         {
+          "name": "2 Diario di bordo.pdf",
+          "type": "file",
+          "size": 341873
+        },
+        {
           "name": "9 Diario di bordo.pdf",
           "type": "file",
           "size": 313374
+        },
+        {
+          "name": "6 Diario di bordo.pdf",
+          "type": "file",
+          "size": 340887
+        }
+      ]
+    },
+    {
+      "name": "verbali",
+      "type": "directory",
+      "children": [
+        {
+          "name": "esterni",
+          "type": "directory",
+          "children": [
+            {
+              "name": "2025-01-13_Incontro-Ergon-analisi-poc-chiarimenti_firmato.pdf",
+              "type": "file",
+              "size": 490139
+            },
+            {
+              "name": "2025-01-13-Incontro-Ergon-analisi-poc-chiarimenti.pdf",
+              "type": "file",
+              "size": 418645
+            },
+            {
+              "name": "2024-11-11_Incontro-chiarimenti-Ergon.pdf",
+              "type": "file",
+              "size": 416277
+            },
+            {
+              "name": "2025-01-13-Incontro-Ergon-analisi-poc-chiarimenti_firmato.pdf",
+              "type": "file",
+              "size": 490139
+            },
+            {
+              "name": "2024-11-11_Incontro-chiarimenti-Ergon_firmato.pdf",
+              "type": "file",
+              "size": 491208
+            },
+            {
+              "name": "2024-10-25_Incontro-Ergon_firmato.pdf",
+              "type": "file",
+              "size": 492622
+            },
+            {
+              "name": "2024-12-11_Incontro-chiarimenti-analisi-Ergon_firmato.pdf",
+              "type": "file",
+              "size": 497835
+            },
+            {
+              "name": "2024-12-11_Incontro-chiarimenti-analisi-Ergon.pdf",
+              "type": "file",
+              "size": 421977
+            }
+          ]
+        },
+        {
+          "name": "interni",
+          "type": "directory",
+          "children": [
+            {
+              "name": "2024-11-08_Discussione-aggiudicazione.pdf",
+              "type": "file",
+              "size": 413569
+            },
+            {
+              "name": "2024-11-04_Correzione-candidatura.pdf",
+              "type": "file",
+              "size": 425253
+            },
+            {
+              "name": "2025-01-22_Coordinamento-Sprint-7.pdf",
+              "type": "file",
+              "size": 418707
+            },
+            {
+              "name": "2024-11-12_Inizio-stesura_documenti_RTB.pdf",
+              "type": "file",
+              "size": 415801
+            },
+            {
+              "name": "2024-10-21_Incontro-Iniziale.pdf",
+              "type": "file",
+              "size": 420798
+            },
+            {
+              "name": "2024-11-26_Coordinamento-Sprint-2.pdf",
+              "type": "file",
+              "size": 416241
+            },
+            {
+              "name": "2025-01-06_Coordinamento-Sprint-6.pdf",
+              "type": "file",
+              "size": 594285
+            },
+            {
+              "name": "2024-11-19_Scelte-organizzative-e-coordinamento.pdf",
+              "type": "file",
+              "size": 429436
+            },
+            {
+              "name": "2024-11-11_Discussione-Requisiti.pdf",
+              "type": "file",
+              "size": 410688
+            },
+            {
+              "name": "2024-10-28_Revisione-documenti.pdf",
+              "type": "file",
+              "size": 423040
+            },
+            {
+              "name": "2024-10-31_Lettera-e-Revisione-finale.pdf",
+              "type": "file",
+              "size": 403419
+            },
+            {
+              "name": "2024-11-12_Inizio-stesura-documenti-RTB.pdf",
+              "type": "file",
+              "size": 419773
+            },
+            {
+              "name": "2024-10-22_Discussione-Capitolati.pdf",
+              "type": "file",
+              "size": 433346
+            },
+            {
+              "name": "2024-12-11_Coordinamento-Sprint-4.pdf",
+              "type": "file",
+              "size": 424275
+            },
+            {
+              "name": "2024-11-04_Correzione_candidatura.pdf",
+              "type": "file",
+              "size": 422619
+            },
+            {
+              "name": "2024-12-24_Coordinamento-Sprint-5.pdf",
+              "type": "file",
+              "size": 424643
+            },
+            {
+              "name": "2024-12-04_Coordinamento-Sprint-3.pdf",
+              "type": "file",
+              "size": 418385
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "glossario",
+      "type": "directory",
+      "children": [
+        {
+          "name": "glossario.pdf",
+          "type": "file",
+          "size": 568123
+        },
+        {
+          "name": "glossario.txt",
+          "type": "file",
+          "size": 22376
         }
       ]
     }
