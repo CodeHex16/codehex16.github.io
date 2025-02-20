@@ -9,22 +9,22 @@
         {
           "name": "Norme-di-Progetto.pdf",
           "type": "file",
-          "size": 567981
+          "size": 539136
         },
         {
           "name": "Analisi-dei-Requisiti.pdf",
           "type": "file",
-          "size": 580564
+          "size": 544230
         },
         {
           "name": "Piano-di-Qualifica.pdf",
           "type": "file",
-          "size": 505499
+          "size": 476663
         },
         {
           "name": "Piano-di-Progetto.pdf",
           "type": "file",
-          "size": 1727022
+          "size": 1703137
         },
         {
           "name": "verbali",
@@ -58,52 +58,52 @@
                 {
                   "name": "2024-11-08_Discussione-aggiudicazione.pdf",
                   "type": "file",
-                  "size": 413569
+                  "size": 411357
                 },
                 {
                   "name": "2025-01-22_Coordinamento-Sprint-7.pdf",
                   "type": "file",
-                  "size": 418707
+                  "size": 415630
                 },
                 {
                   "name": "2024-11-26_Coordinamento-Sprint-2.pdf",
                   "type": "file",
-                  "size": 416241
+                  "size": 414052
                 },
                 {
                   "name": "2025-01-06_Coordinamento-Sprint-6.pdf",
                   "type": "file",
-                  "size": 594285
+                  "size": 590894
                 },
                 {
                   "name": "2024-11-19_Scelte-organizzative-e-coordinamento.pdf",
                   "type": "file",
-                  "size": 429436
+                  "size": 424453
                 },
                 {
                   "name": "2024-11-11_Discussione-Requisiti.pdf",
                   "type": "file",
-                  "size": 410688
+                  "size": 408695
                 },
                 {
                   "name": "2024-11-12_Inizio-stesura-documenti-RTB.pdf",
                   "type": "file",
-                  "size": 419773
+                  "size": 417292
                 },
                 {
                   "name": "2024-12-11_Coordinamento-Sprint-4.pdf",
                   "type": "file",
-                  "size": 424275
+                  "size": 420707
                 },
                 {
                   "name": "2024-12-24_Coordinamento-Sprint-5.pdf",
                   "type": "file",
-                  "size": 424643
+                  "size": 421687
                 },
                 {
                   "name": "2024-12-04_Coordinamento-Sprint-3.pdf",
                   "type": "file",
-                  "size": 418385
+                  "size": 415074
                 }
               ]
             }
@@ -123,17 +123,17 @@
         {
           "name": "Valutazione-Capitolati.pdf",
           "type": "file",
-          "size": 466846
+          "size": 453494
         },
         {
           "name": "Lettera-di-candidatura.pdf",
           "type": "file",
-          "size": 423944
+          "size": 424124
         },
         {
           "name": "Preventivo-Costi-e-Impegni.pdf",
           "type": "file",
-          "size": 416756
+          "size": 411576
         },
         {
           "name": "verbali",
@@ -157,27 +157,27 @@
                 {
                   "name": "2024-11-04_Correzione-candidatura.pdf",
                   "type": "file",
-                  "size": 425253
+                  "size": 421409
                 },
                 {
                   "name": "2024-10-21_Incontro-Iniziale.pdf",
                   "type": "file",
-                  "size": 420798
+                  "size": 416761
                 },
                 {
                   "name": "2024-10-28_Revisione-documenti.pdf",
                   "type": "file",
-                  "size": 423040
+                  "size": 419761
                 },
                 {
                   "name": "2024-10-31_Lettera-e-Revisione-finale.pdf",
                   "type": "file",
-                  "size": 403419
+                  "size": 401929
                 },
                 {
                   "name": "2024-10-22_Discussione-Capitolati.pdf",
                   "type": "file",
-                  "size": 433346
+                  "size": 428688
                 }
               ]
             }
@@ -237,13 +237,41 @@
       ]
     },
     {
+      "name": "verbali",
+      "type": "directory",
+      "children": [
+        {
+          "name": "esterni",
+          "type": "directory",
+          "children": [
+            {
+              "name": "2025-02-14_Incontro_prof_Cardin.pdf",
+              "type": "file",
+              "size": 412029
+            }
+          ]
+        },
+        {
+          "name": "interni",
+          "type": "directory",
+          "children": [
+            {
+              "name": "2025-14-02_Coordinamento-Sprint-8.pdf",
+              "type": "file",
+              "size": 415639
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "glossario",
       "type": "directory",
       "children": [
         {
           "name": "glossario.pdf",
           "type": "file",
-          "size": 568123
+          "size": 522582
         },
         {
           "name": "glossario.txt",
