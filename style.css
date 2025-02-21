@@ -9,8 +9,9 @@
 		--header-bgcolor: #1c1917;
 		--section-bgcolor: #1c1917;
 		--text-color: #e7e5e4;
-		--hover-color: #a8a29e;
-		--link-color: #a8a29e;
+		--hover-color: #ffffff;
+		--link-color: #c4bdb8;
+		--link-visited-color: #7f7b78;
 		--accent-color: #a5b4fc;
 	}
 
@@ -132,10 +133,7 @@ hr {
 }
 
 section {
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding: 0.5em 1.5em;
 	background-color: var(--section-bgcolor);
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -143,6 +141,10 @@ section {
 	max-width: 80vh;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+section h3 {
+	font-size: larger;
 }
 
 .verbali {
@@ -227,11 +229,29 @@ section {
 	font-size: smaller;
 }
 
+#documenti{
+	padding-bottom: 1em;
+}
+
+#documenti hr {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-top: 0.1em solid var(--link-color);
+	opacity: 0.5;
+}
+
 #documenti a {
 	color: var(--link-color);
 }
 
 #documenti a:hover {
+	color: var(--text-color);
+}
+
+#documenti a:visited {
+	color: var(--link-visited-color);
+}
+#documenti a:visited:hover {
 	color: var(--text-color);
 }
 
@@ -280,6 +300,32 @@ dd::after {
 	content: "”";
 }
 
+
+.accordion-header {
+	cursor: pointer;
+	position: relative;
+	padding-right: 1.5em; /* spazio per l'icona */
+	padding-left: 1em;
+}
+
+/* Aggiunge la freccia a destra dell'header */
+.accordion-header::before {
+	content: "▸";
+	position: absolute;
+	left: 0;
+	transition: transform 0.3s;
+	transform: rotate(0deg);
+}
+
+/* Ruota la freccia quando l'header è attivo */
+.accordion-header.active::before {
+	transform: rotate(90deg);
+}
+
+/* .accordion-content {
+	padding-left: 1em;
+} */
+
 /*media query*/
 @media (max-width: 600px) {
 	.nav.extra {
@@ -291,27 +337,8 @@ dd::after {
 		grid-template-columns: 1fr 2fr 1fr;
 	}
 
-	#verbali {
+	.verbali {
 		grid-template-columns: 1fr;
 		gap: 1em;
 	}
-}
-
-.accordion-header {
-	cursor: pointer;
-	position: relative;
-	padding-right: 1.5em; /* spazio per l'icona */
-}
-
-/* Aggiunge la freccia a destra dell'header */
-.accordion-header::after {
-	content: "▼";
-	position: absolute;
-	right: 0;
-	transition: transform 0.3s;
-}
-
-/* Ruota la freccia quando l'header è attivo */
-.accordion-header.active::after {
-	transform: rotate(180deg);
 }

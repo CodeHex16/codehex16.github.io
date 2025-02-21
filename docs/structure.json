@@ -247,34 +247,6 @@
       ]
     },
     {
-      "name": "verbali",
-      "type": "directory",
-      "children": [
-        {
-          "name": "esterni",
-          "type": "directory",
-          "children": [
-            {
-              "name": "2025-02-14_Incontro_prof_Cardin.pdf",
-              "type": "file",
-              "size": 411274
-            }
-          ]
-        },
-        {
-          "name": "interni",
-          "type": "directory",
-          "children": [
-            {
-              "name": "2025-14-02_Coordinamento-Sprint-8.pdf",
-              "type": "file",
-              "size": 415972
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "glossario",
       "type": "directory",
       "children": [

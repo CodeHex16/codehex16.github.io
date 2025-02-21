@@ -43,7 +43,8 @@ async function addAllDocuments() {
 				<div class="accordion-content">
 					<ul class="link-file">${elements}</ul>
 					${verbali}
-				</div>`;
+				</div>
+				<hr/>`;
 			} else {
 				let elements = populateBasicPDFList(sezione);
 
@@ -96,7 +97,7 @@ function populateVerbali(section) {
 				if (pdf.type === "file" && pdf.name.endsWith(".pdf")) {
 					let nameDate = parseName(pdf.name);
 					let path = findFilePath(section, pdf.name);
-					verbaliElements += `<li><a href="${docsUrl + path}" target="_blank" class="file-link">${nameDate[0]}</a>${nameDate[1] ? `<span class="file-date">${nameDate[1]}</span>` : ""}</li>`;	
+					verbaliElements += `<li><a href="${docsUrl + path}" target="_blank" class="file-link">${nameDate[0]}</a>${nameDate[1] ? `<span class="file-date">${nameDate[1]}</span>` : ""}</li>`;
 				}
 			});
 
