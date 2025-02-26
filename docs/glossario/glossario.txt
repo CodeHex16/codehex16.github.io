@@ -58,6 +58,7 @@ Sistema numerico in base 16 che utilizza i simboli 0-9 e le lettere A-F per rapp
 Il feedback è un processo di comunicazione in cui vengono fornite informazioni, opinioni o valutazioni su un determinato argomento o attività. Il feedback può essere positivo o negativo e può essere utilizzato per migliorare le prestazioni, correggere errori, rafforzare comportamenti desiderati o valutare il successo di un progetto. Il feedback è un elemento chiave nel processo di apprendimento, sviluppo e miglioramento continuo.
 == Fornitore
 Il fornitore è l'ente o l'organizzazione che fornisce beni o servizi a un committente in base a un contratto o un accordo. Il fornitore può essere un'azienda, un'istituzione, un'organizzazione non governativa o un individuo che offre prodotti o servizi specifici. Il fornitore è responsabile della realizzazione e della consegna dei beni o servizi richiesti dal committente.
+// TODO: da rendere più attinente al nostro progetto
 == FAQ
 Acronimo di "Frequently Asked Questions", indica una raccolta di domande e risposte frequenti su un determinato argomento.
 == Frontend

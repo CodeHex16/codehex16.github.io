@@ -3,153 +3,9 @@
   "type": "directory",
   "children": [
     {
-      "name": "2 - RTB",
-      "type": "directory",
-      "children": [
-        {
-          "name": "Norme-di-Progetto.pdf",
-          "type": "file",
-          "size": 543747
-        },
-        {
-          "name": "Analisi-dei-Requisiti.pdf",
-          "type": "file",
-          "size": 555715
-        },
-        {
-          "name": "Piano-di-Qualifica.pdf",
-          "type": "file",
-          "size": 488433
-        },
-        {
-          "name": "Piano-di-Progetto.pdf",
-          "type": "file",
-          "size": 2079339
-        },
-        {
-          "name": "verbali",
-          "type": "directory",
-          "children": [
-            {
-              "name": "esterni",
-              "type": "directory",
-              "children": [
-                {
-                  "name": "2025-01-13_Incontro-Ergon-analisi-poc-chiarimenti_firmato.pdf",
-                  "type": "file",
-                  "size": 490139
-                },
-                {
-                  "name": "2025-02-14_Incontro_prof_Cardin.pdf",
-                  "type": "file",
-                  "size": 411274
-                },
-                {
-                  "name": "2024-11-11_Incontro-chiarimenti-Ergon_firmato.pdf",
-                  "type": "file",
-                  "size": 491208
-                },
-                {
-                  "name": "2025-02-14_Incontro-Prof-Cardin.pdf",
-                  "type": "file",
-                  "size": 411274
-                },
-                {
-                  "name": "2024-12-11_Incontro-chiarimenti-analisi-Ergon_firmato.pdf",
-                  "type": "file",
-                  "size": 497835
-                }
-              ]
-            },
-            {
-              "name": "interni",
-              "type": "directory",
-              "children": [
-                {
-                  "name": "2024-11-08_Discussione-aggiudicazione.pdf",
-                  "type": "file",
-                  "size": 410564
-                },
-                {
-                  "name": "2025-01-22_Coordinamento-Sprint-7.pdf",
-                  "type": "file",
-                  "size": 415962
-                },
-                {
-                  "name": "2024-11-26_Coordinamento-Sprint-2.pdf",
-                  "type": "file",
-                  "size": 413141
-                },
-                {
-                  "name": "2025-01-06_Coordinamento-Sprint-6.pdf",
-                  "type": "file",
-                  "size": 590458
-                },
-                {
-                  "name": "2024-11-19_Scelte-organizzative-e-coordinamento.pdf",
-                  "type": "file",
-                  "size": 424925
-                },
-                {
-                  "name": "2025-14-02_Coordinamento-Sprint-8.pdf",
-                  "type": "file",
-                  "size": 415972
-                },
-                {
-                  "name": "2024-11-11_Discussione-Requisiti.pdf",
-                  "type": "file",
-                  "size": 407855
-                },
-                {
-                  "name": "2024-11-12_Inizio-stesura-documenti-RTB.pdf",
-                  "type": "file",
-                  "size": 416584
-                },
-                {
-                  "name": "2024-12-11_Coordinamento-Sprint-4.pdf",
-                  "type": "file",
-                  "size": 421224
-                },
-                {
-                  "name": "2024-12-24_Coordinamento-Sprint-5.pdf",
-                  "type": "file",
-                  "size": 421257
-                },
-                {
-                  "name": "2024-12-04_Coordinamento-Sprint-3.pdf",
-                  "type": "file",
-                  "size": 415269
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "structure.json",
-      "type": "file",
-      "size": 0
-    },
-    {
       "name": "1 - candidatura",
       "type": "directory",
       "children": [
-        {
-          "name": "Valutazione-Capitolati.pdf",
-          "type": "file",
-          "size": 454050
-        },
-        {
-          "name": "Lettera-di-candidatura.pdf",
-          "type": "file",
-          "size": 424124
-        },
-        {
-          "name": "Preventivo-Costi-e-Impegni.pdf",
-          "type": "file",
-          "size": 414409
-        },
         {
           "name": "verbali",
           "type": "directory",
@@ -172,52 +28,207 @@
                 {
                   "name": "2024-11-04_Correzione-candidatura.pdf",
                   "type": "file",
-                  "size": 420523
-                },
-                {
-                  "name": "2024-10-21_Incontro-Iniziale.pdf",
-                  "type": "file",
-                  "size": 415914
-                },
-                {
-                  "name": "2024-10-28_Revisione-documenti.pdf",
-                  "type": "file",
-                  "size": 418995
-                },
-                {
-                  "name": "2024-10-31_Lettera-e-Revisione-finale.pdf",
-                  "type": "file",
-                  "size": 401249
+                  "size": 417701
                 },
                 {
                   "name": "2024-10-22_Discussione-Capitolati.pdf",
                   "type": "file",
-                  "size": 427917
+                  "size": 425095
+                },
+                {
+                  "name": "2024-10-28_Revisione-documenti.pdf",
+                  "type": "file",
+                  "size": 416173
+                },
+                {
+                  "name": "2024-10-21_Incontro-Iniziale.pdf",
+                  "type": "file",
+                  "size": 412903
+                },
+                {
+                  "name": "2024-10-31_Lettera-e-Revisione-finale.pdf",
+                  "type": "file",
+                  "size": 398427
                 }
               ]
             }
           ]
+        },
+        {
+          "name": "Preventivo-Costi-e-Impegni.pdf",
+          "type": "file",
+          "size": 411587
+        },
+        {
+          "name": "Valutazione-Capitolati.pdf",
+          "type": "file",
+          "size": 451184
+        },
+        {
+          "name": "Lettera-di-candidatura.pdf",
+          "type": "file",
+          "size": 420593
         }
       ]
+    },
+    {
+      "name": "glossario",
+      "type": "directory",
+      "children": [
+        {
+          "name": "glossario.txt",
+          "type": "file",
+          "size": 29978
+        },
+        {
+          "name": "glossario.pdf",
+          "type": "file",
+          "size": 547958
+        }
+      ]
+    },
+    {
+      "name": "2 - RTB",
+      "type": "directory",
+      "children": [
+        {
+          "name": "Norme-di-Progetto.pdf",
+          "type": "file",
+          "size": 539881
+        },
+        {
+          "name": "verbali",
+          "type": "directory",
+          "children": [
+            {
+              "name": "esterni",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "2024-11-11_Incontro-chiarimenti-Ergon_firmato.pdf",
+                  "type": "file",
+                  "size": 491208
+                },
+                {
+                  "name": "2025-02-14_Incontro_prof_Cardin.pdf",
+                  "type": "file",
+                  "size": 411274
+                },
+                {
+                  "name": "2025-01-13_Incontro-Ergon-analisi-poc-chiarimenti_firmato.pdf",
+                  "type": "file",
+                  "size": 490139
+                },
+                {
+                  "name": "2025-02-14_Incontro-Prof-Cardin.pdf",
+                  "type": "file",
+                  "size": 408452
+                },
+                {
+                  "name": "2024-12-11_Incontro-chiarimenti-analisi-Ergon_firmato.pdf",
+                  "type": "file",
+                  "size": 497835
+                }
+              ]
+            },
+            {
+              "name": "interni",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "2024-11-08_Discussione-aggiudicazione.pdf",
+                  "type": "file",
+                  "size": 407742
+                },
+                {
+                  "name": "2024-12-04_Coordinamento-Sprint-3.pdf",
+                  "type": "file",
+                  "size": 412447
+                },
+                {
+                  "name": "2024-11-12_Inizio-stesura-documenti-RTB.pdf",
+                  "type": "file",
+                  "size": 413762
+                },
+                {
+                  "name": "2025-01-06_Coordinamento-Sprint-6.pdf",
+                  "type": "file",
+                  "size": 587278
+                },
+                {
+                  "name": "2024-12-24_Coordinamento-Sprint-5.pdf",
+                  "type": "file",
+                  "size": 418435
+                },
+                {
+                  "name": "2024-11-11_Discussione-Requisiti.pdf",
+                  "type": "file",
+                  "size": 405033
+                },
+                {
+                  "name": "2025-01-22_Coordinamento-Sprint-7.pdf",
+                  "type": "file",
+                  "size": 413140
+                },
+                {
+                  "name": "2025-14-02_Coordinamento-Sprint-8.pdf",
+                  "type": "file",
+                  "size": 413150
+                },
+                {
+                  "name": "2024-11-26_Coordinamento-Sprint-2.pdf",
+                  "type": "file",
+                  "size": 410319
+                },
+                {
+                  "name": "2024-12-11_Coordinamento-Sprint-4.pdf",
+                  "type": "file",
+                  "size": 418402
+                },
+                {
+                  "name": "2024-11-19_Scelte-organizzative-e-coordinamento.pdf",
+                  "type": "file",
+                  "size": 422103
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Piano-di-Progetto.pdf",
+          "type": "file",
+          "size": 2076517
+        },
+        {
+          "name": "Piano-di-Qualifica.pdf",
+          "type": "file",
+          "size": 484940
+        },
+        {
+          "name": "Analisi-dei-Requisiti.pdf",
+          "type": "file",
+          "size": 753757
+        }
+      ]
+    },
+    {
+      "name": "structure.json",
+      "type": "file",
+      "size": 0
     },
     {
       "name": "diari-di-bordo",
       "type": "directory",
       "children": [
         {
-          "name": "5 Diario di bordo.pdf",
-          "type": "file",
-          "size": 341366
-        },
-        {
-          "name": "3 Diario di bordo.pdf",
-          "type": "file",
-          "size": 305763
-        },
-        {
           "name": "8 Diario di bordo.pdf",
           "type": "file",
           "size": 350893
+        },
+        {
+          "name": "6 Diario di bordo.pdf",
+          "type": "file",
+          "size": 340887
         },
         {
           "name": "7 Diario di bordo.pdf",
@@ -225,14 +236,14 @@
           "size": 342426
         },
         {
-          "name": "4 Diario di bordo.pdf",
-          "type": "file",
-          "size": 340577
-        },
-        {
           "name": "1 Diario di bordo.pdf",
           "type": "file",
           "size": 346250
+        },
+        {
+          "name": "3 Diario di bordo.pdf",
+          "type": "file",
+          "size": 305763
         },
         {
           "name": "2 Diario di bordo.pdf",
@@ -245,25 +256,14 @@
           "size": 313374
         },
         {
-          "name": "6 Diario di bordo.pdf",
+          "name": "5 Diario di bordo.pdf",
           "type": "file",
-          "size": 340887
-        }
-      ]
-    },
-    {
-      "name": "glossario",
-      "type": "directory",
-      "children": [
-        {
-          "name": "glossario.pdf",
-          "type": "file",
-          "size": 550780
+          "size": 341366
         },
         {
-          "name": "glossario.txt",
+          "name": "4 Diario di bordo.pdf",
           "type": "file",
-          "size": 29924
+          "size": 340577
         }
       ]
     }
