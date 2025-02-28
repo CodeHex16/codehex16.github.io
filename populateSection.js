@@ -29,35 +29,44 @@ async function addAllDocuments() {
 	const data = await structure.json();
 	let pageElements = "";
 
-	data.children.forEach((sezione) => {
-		if (sezione.type === "directory" && sezione.name !== "glossario") {
-			let newName = sezione.name;
-			if (sezione.name.includes(" - ")) {
-				let elements = populateBasicPDFList(sezione);
-				let verbali = populateVerbali(sezione);
+	// Filtra e ordina le sezioni in ordine decrescente
+	const sezioni = data.children
+		.filter(sezione => sezione.type === "directory" && sezione.name !== "glossario")
+		.sort((a, b) => {
+			// Estrae i numeri dei nomi delle sezioni (es. "2 - RTB" -> 2)
+			const numA = parseInt(a.name.split(" - ")[0]) || 0;
+			const numB = parseInt(b.name.split(" - ")[0]) || 0;
+			// Ordina in modo decrescente
+			return numB - numA;
+		});
 
-				newName = newName.split(" - ")[1];
-				newName = newName.charAt(0).toUpperCase() + newName.slice(1);
-				pageElements += `
-				<h2 class="accordion-header">${newName}</h2>
-				<div class="accordion-content">
-					<ul class="link-file">${elements}</ul>
-					${verbali}
-				</div>
-				<hr/>`;
-			} else {
-				let elements = populateBasicPDFList(sezione);
+	sezioni.forEach((sezione) => {
+		let newName = sezione.name;
+		if (sezione.name.includes(" - ")) {
+			let elements = populateBasicPDFList(sezione);
+			let verbali = populateVerbali(sezione);
 
-				// caso DIARIO DI BORDO
-				newName = newName.charAt(0).toUpperCase() + newName.slice(1);
-				newName = newName.replace(/-/g, " ");
+			newName = newName.split(" - ")[1];
+			newName = newName.charAt(0).toUpperCase() + newName.slice(1);
+			pageElements += `
+			<h2 class="accordion-header">${newName}</h2>
+			<div class="accordion-content">
+				<ul class="link-file">${elements}</ul>
+				${verbali}
+			</div>
+			<hr/>`;
+		} else {
+			let elements = populateBasicPDFList(sezione);
 
-				pageElements += `
-				<h2 class="accordion-header">${newName}</h2>
-				<div class="accordion-content">
-					<ul class="link-file">${elements}</ul>
-				</div>`;
-			}
+			// caso DIARIO DI BORDO
+			newName = newName.charAt(0).toUpperCase() + newName.slice(1);
+			newName = newName.replace(/-/g, " ");
+
+			pageElements += `
+			<h2 class="accordion-header">${newName}</h2>
+			<div class="accordion-content">
+				<ul class="link-file">${elements}</ul>
+			</div>`;
 		}
 	});
 
