@@ -57,12 +57,12 @@
         {
           "name": "Preventivo-Costi-e-Impegni.pdf",
           "type": "file",
-          "size": 411587
+          "size": 411585
         },
         {
           "name": "Valutazione-Capitolati.pdf",
           "type": "file",
-          "size": 451184
+          "size": 451183
         },
         {
           "name": "Lettera-di-candidatura.pdf",
@@ -94,7 +94,7 @@
         {
           "name": "Norme-di-Progetto.pdf",
           "type": "file",
-          "size": 549440
+          "size": 549111
         },
         {
           "name": "verbali",
@@ -207,17 +207,17 @@
         {
           "name": "Piano-di-Progetto.pdf",
           "type": "file",
-          "size": 2399754
+          "size": 2399712
         },
         {
           "name": "Piano-di-Qualifica.pdf",
           "type": "file",
-          "size": 821823
+          "size": 822420
         },
         {
           "name": "Analisi-dei-Requisiti.pdf",
           "type": "file",
-          "size": 1072206
+          "size": 1072203
         }
       ]
     },
