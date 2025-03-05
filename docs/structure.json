@@ -67,7 +67,7 @@
         {
           "name": "Lettera-di-candidatura.pdf",
           "type": "file",
-          "size": 420593
+          "size": 420599
         }
       ]
     },
@@ -146,6 +146,11 @@
                   "size": 412447
                 },
                 {
+                  "name": "2025-02-14_Coordinamento-Sprint-8.pdf",
+                  "type": "file",
+                  "size": 413164
+                },
+                {
                   "name": "2024-11-12_Inizio-stesura-documenti-RTB.pdf",
                   "type": "file",
                   "size": 413762
@@ -193,6 +198,11 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Lettera-di-Presentazione.pdf",
+          "type": "file",
+          "size": 402615
         },
         {
           "name": "Piano-di-Progetto.pdf",
