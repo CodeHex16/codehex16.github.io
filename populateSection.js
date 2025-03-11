@@ -80,7 +80,7 @@ function populateBasicPDFList(section) {
 	const docsUrl = "/docs";
 	let elements = "";
 	let pdfFiles = section.children;
-	pdfFiles.sort((a, b) => b.name.localeCompare(a.name));
+	pdfFiles.sort((a, b) => parseInt(b.name.split(" ")[0]) - parseInt(a.name.split(" ")[0]));
 
 	pdfFiles.forEach((pdf) => {
 		let path = findFilePath(section, pdf.name);
