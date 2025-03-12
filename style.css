@@ -163,6 +163,10 @@ section h3 {
 	max-width: fit-content;
 }
 
+.verbali > div {
+	min-width: 23em;
+}
+
 .link-file {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -327,18 +331,22 @@ dd::after {
 } */
 
 /*media query*/
-@media (max-width: 600px) {
+@media (max-width: 820px) {
 	.nav.extra {
 		display: none;
 	}
 
 	header {
 		display: grid;
-		grid-template-columns: 1fr 2fr 1fr;
+		grid-template-columns: 1fr 1fr 2fr 1fr;
 	}
 
 	.verbali {
 		grid-template-columns: 1fr;
 		gap: 1em;
+	}
+
+	.verbali > div {
+		min-width: 0;
 	}
 }
