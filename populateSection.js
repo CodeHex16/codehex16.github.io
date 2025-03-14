@@ -51,7 +51,7 @@ async function addAllDocuments() {
 			pageElements += `
 			<h2 class="accordion-header">${newName}</h2>
 			<div class="accordion-content">
-				<ul class="link-file">${elements}</ul>
+				${elements}
 				${verbali}
 			</div>
 			<hr/>`;
@@ -75,20 +75,30 @@ async function addAllDocuments() {
 
 }
 
-
+// TODO: This function has been temporarily modified to divide external and internal docs for RTB, it needs to get back to the original code and made more generic when the docs repo's structure will divide internal and external docs 
 function populateBasicPDFList(section) {
 	const docsUrl = "/docs";
-	let elements = "";
+	let elementsEsterni = "", elementsInterni = "";
 	let pdfFiles = section.children;
 	pdfFiles.sort((a, b) => parseInt(b.name.split(" ")[0]) - parseInt(a.name.split(" ")[0]));
 
 	pdfFiles.forEach((pdf) => {
 		let path = findFilePath(section, pdf.name);
 		if (pdf.type === "file" && pdf.name.endsWith(".pdf")) {
-			elements += `<li><a href="${docsUrl + path}" target="_blank" class="file-link">${(parseName(pdf.name))}</a></li>`;
+			if (!pdf.name.includes("Norme-di-Progetto"))
+				elementsEsterni += `<li><a href="${docsUrl + path}" target="_blank" class="file-link">${(parseName(pdf.name))}</a></li>`;
+			else
+				elementsInterni += `<li><a href="${docsUrl + path}" target="_blank" class="file-link">${(parseName(pdf.name))}</a></li>`;
 		}
 	});
-	return elements;
+
+	let result = `<div class="verbali">`;
+	if (elementsInterni !== ``)
+		result += `<div><h4>Interni</h4><ul class="link-file">${elementsInterni}</ul></div>`;
+	if (elementsEsterni !== ``)
+		result += `<div><h4>Esterni</h4><ul class="link-file">${elementsEsterni}</ul></div>`;
+	result += `</div>`;
+	return result;
 }
 
 function populateVerbali(section) {
