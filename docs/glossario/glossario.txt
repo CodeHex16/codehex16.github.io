@@ -86,7 +86,7 @@ Modello di intelligenza artificiale leggero e ottimizzato, basato sulla tecnolog
 == HTML
 Acronimo di "HyperText Markup Language", è un linguaggio di markup utilizzato per creare e strutturare contenuti su pagine web.
 = I
-== Input tokens
+== Input token
 Unità di testo elaborate da un modello di intelligenza artificiale, includono parole, caratteri o simboli che costituiscono l'input fornito.
 == Interfaccia web
 Un'interfaccia web è un'interfaccia utente basata su web che consente agli utenti di interagire con un'applicazione o un sistema tramite un browser web. Le interfacce web possono includere elementi come pulsanti, menu, form, tabelle e grafici per consentire agli utenti di navigare, inserire dati, visualizzare informazioni e interagire con il sistema. Le interfacce web sono progettate per essere intuitive, responsive e accessibili da diversi dispositivi e piattaforme.
@@ -125,7 +125,7 @@ ODBC è l'acronimo di "Open Database Connectivity". Si tratta di uno standard ch
 Organizzazione di ricerca e sviluppo nel campo dell'intelligenza artificiale, nota per aver creato modelli avanzati come GPT, progettati per rendere l'IA sicura e utile per tutti.
 == Output speed
 Velocità in token al secondo ricevuti mentre il modello sta generando token (cioè dopo che il primo blocco è stato ricevuto dall'API per i modelli che supportano lo streaming).
-== Output tokens
+== Output token
 Unità di testo generate da un modello di intelligenza artificiale come risposta all'input fornito, comprendendo parole, caratteri o simboli.
 = P
 == PB(Product Baseline)
