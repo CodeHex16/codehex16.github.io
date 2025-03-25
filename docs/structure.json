@@ -242,6 +242,11 @@
       "type": "directory",
       "children": [
         {
+          "name": "11 Diario di bordo.pdf",
+          "type": "file",
+          "size": 304375
+        },
+        {
           "name": "8 Diario di bordo.pdf",
           "type": "file",
           "size": 350893
@@ -255,6 +260,11 @@
           "name": "7 Diario di bordo.pdf",
           "type": "file",
           "size": 342426
+        },
+        {
+          "name": "12 Diario di bordo.pdf",
+          "type": "file",
+          "size": 341121
         },
         {
           "name": "1 Diario di bordo.pdf",
