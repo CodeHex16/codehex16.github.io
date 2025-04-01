@@ -10,6 +10,11 @@
           "name": "Specifica-Tecnica.pdf",
           "type": "file",
           "size": 419652
+        },
+        {
+          "name": "Manuale-utente.pdf",
+          "type": "file",
+          "size": 454719
         }
       ]
     },
