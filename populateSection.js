@@ -75,24 +75,36 @@ async function addAllDocuments() {
 
 }
 
-// TODO: This function has been temporarily modified to divide external and internal docs for RTB, it needs to get back to the original code and made more generic when the docs repo's structure will divide internal and external docs 
+// TODO: This function has been temporarily modified to divide external and internal 
+// docs for RTB, it needs to get back to the original code and made 
+// more generic when the docs repo's structure will divide internal and external docs 
+
 function populateBasicPDFList(section) {
 	const docsUrl = "/docs";
-	let elementsEsterni = "", elementsInterni = "";
+
+	const LISTA_DOCUMENTI_INTERNI = ["Norme-di-Progetto.pdf"]
+
+	let elementsEsterni = "", elementsInterni = "", elementsLettere = "";
+
 	let pdfFiles = section.children;
 	pdfFiles.sort((a, b) => parseInt(b.name.split(" ")[0]) - parseInt(a.name.split(" ")[0]));
 
 	pdfFiles.forEach((pdf) => {
 		let path = findFilePath(section, pdf.name);
 		if (pdf.type === "file" && pdf.name.endsWith(".pdf")) {
-			if (!pdf.name.includes("Norme-di-Progetto"))
-				elementsEsterni += `<li><a href="${docsUrl + path}" target="_blank" class="file-link">${(parseName(pdf.name))}</a></li>`;
-			else
+			if (pdf.name.includes("Lettera")) {
+				elementsLettere += `<a href="${docsUrl + path}" target="_blank" class="file-link">${(parseName(pdf.name))}</a>`;
+			} else if (LISTA_DOCUMENTI_INTERNI.includes(pdf.name)) {
 				elementsInterni += `<li><a href="${docsUrl + path}" target="_blank" class="file-link">${(parseName(pdf.name))}</a></li>`;
+			} else {
+				elementsEsterni += `<li><a href="${docsUrl + path}" target="_blank" class="file-link">${(parseName(pdf.name))}</a></li>`;
+			}
 		}
 	});
 
 	let result = `<div class="verbali">`;
+	if (elementsLettere !== ``)
+		result += `<div class="link-lettera"><h3>${elementsLettere}</h3></div>`;
 	if (elementsInterni !== ``)
 		result += `<div><h4>Interni</h4><ul class="link-file">${elementsInterni}</ul></div>`;
 	if (elementsEsterni !== ``)

@@ -150,8 +150,14 @@ section h3 {
 .verbali {
 	display: grid;
 	grid-template-columns: auto auto;
-	justify-content: start;
+	justify-items: center;
+	justify-content: space-between;
 	gap: 2em;
+}
+.link-lettera{
+	grid-column: span 2;
+	text-align: center;
+	
 }
 
 .verbali h4 {
