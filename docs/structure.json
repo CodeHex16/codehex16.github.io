@@ -7,6 +7,39 @@
       "type": "directory",
       "children": [
         {
+          "name": "verbali",
+          "type": "directory",
+          "children": [
+            {
+              "name": "esterni",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "2025-04-02_Incontro_prof_Cardin.pdf",
+                  "type": "file",
+                  "size": 410222
+                }
+              ]
+            },
+            {
+              "name": "interni",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "2025-03-26_Coordinamento-sprint-10.pdf",
+                  "type": "file",
+                  "size": 410312
+                },
+                {
+                  "name": "2025-03-31_Coordinamento-sprint-11.pdf",
+                  "type": "file",
+                  "size": 413659
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Specifica-Tecnica.pdf",
           "type": "file",
           "size": 419652
