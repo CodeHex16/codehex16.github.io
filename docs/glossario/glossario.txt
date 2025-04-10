@@ -146,6 +146,8 @@ Una pull request è una richiesta di integrazione di un branch o di un set di mo
 == RTB(Requirements and Technology Baseline)
 RTB è l'acronimo di "Requirements and Technology Baseline". Si tratta di una fase del processo di sviluppo software in cui vengono definiti i requisiti del sistema e le tecnologie da utilizzare per la sua realizzazione. Durante la fase di RTB vengono identificati i requisiti funzionali e non funzionali del sistema, le interfacce utente, le tecnologie di sviluppo e le risorse necessarie per il progetto.
 = S
+== Specifica Tecnica
+// TODO
 == Sprint
 Lo sprint è un'unità di tempo fissa utilizzata nello sviluppo software agile per pianificare e organizzare il lavoro del team. Durante uno sprint, il team si impegna a completare un insieme di attività definite in anticipo, chiamate "elementi di sprint". Gli sprint hanno una durata fissa, solitamente compresa tra una e quattro settimane, e si concludono con una revisione e una valutazione dei risultati ottenuti.
 == Sprint Planning

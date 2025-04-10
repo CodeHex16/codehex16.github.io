@@ -45,6 +45,11 @@
           "size": 419652
         },
         {
+          "name": "Analisi-dei-Requisiti.pdf",
+          "type": "file",
+          "size": 1091463
+        },
+        {
           "name": "Manuale-Sviluppatore.pdf",
           "type": "file",
           "size": 443706
@@ -132,12 +137,12 @@
         {
           "name": "glossario.txt",
           "type": "file",
-          "size": 29980
+          "size": 30009
         },
         {
           "name": "glossario.pdf",
           "type": "file",
-          "size": 547911
+          "size": 548796
         }
       ]
     },
