@@ -164,6 +164,8 @@ Acronimo di "Structured Query Language", è un linguaggio di programmazione util
 Nome del nostro prodotto scelto perché racchiude i concetti di: supply che richiama il target dell’utenza di questa webapp, ovvero fornitori che offrono questo chatbot ai loro clienti, e AI che richiama il modello LLM con cui ci si interfaccia tramite chatbot;
 == Svelte
 Framework JavaScript per lo sviluppo di interfacce utente, che consente di scrivere codice reattivo compilato in JavaScript ottimizzato, migliorando le prestazioni delle applicazioni web.
+== SvelteKit
+// TODO
 = T
 == Task
 Una task è un'attività o un compito specifico che deve essere completato entro un determinato periodo di tempo. Le task sono utilizzate per organizzare il lavoro, definire le responsabilità e monitorare lo stato di avanzamento di un progetto. Le task possono essere suddivise in attività più piccole, assegnate a singoli membri del team e monitorate tramite strumenti di gestione delle attività.
@@ -175,15 +177,19 @@ Le tecnologie innovative sono soluzioni, strumenti o approcci che rappresentano 
 Unità minima di testo elaborata da un modello di intelligenza artificiale, come parole, caratteri, o simboli, utilizzata per analizzare e generare contenuti.
 == Top-down
 Il top-down è un approccio di sviluppo software che prevede la definizione dei requisiti e delle specifiche generali del sistema prima di procedere con la progettazione e l'implementazione dei dettagli. In un approccio top-down, si parte da una visione ad alto livello del sistema e si procede a suddividerla in componenti più piccole e dettagliate. Il top-down è utilizzato per definire l'architettura e la struttura generale del sistema prima di passare ai dettagli implementativi.
+== TypeScript
+// TODO
 == Typst
 Typst è un linguaggio di markup testuale sviluppato appositamente per la stesura di documenti. È stato scelto per la sua semplicità d'uso e la versatilità.
 = U
+== UI
 == UML
 Acronimo di "Unified Modeling Language", è un linguaggio di modellazione standardizzato utilizzato per visualizzare, specificare, progettare e documentare sistemi software e processi aziendali.
 == Use Case
 Un use case è un'istanza di interazione tra un attore esterno e un sistema software che descrive un determinato scenario o funzionalità. Gli use case sono utilizzati per modellare i requisiti funzionali di un sistema, identificare i casi d'uso e definire le interazioni tra gli attori e il sistema. Gli use case sono spesso rappresentati tramite diagrammi UML e sono utilizzati come base per la progettazione e lo sviluppo del sistema.
 == User-friendly
 User-friendly è un termine utilizzato per descrivere un prodotto, un'interfaccia o un servizio che è facile da usare, intuitivo e accessibile agli utenti. Un prodotto user-friendly è progettato per soddisfare le esigenze degli utenti, semplificare le operazioni e migliorare l'esperienza utente.
+== UX
 
 = V
 == Vue.js
