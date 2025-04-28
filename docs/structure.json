@@ -200,7 +200,7 @@
         {
           "name": "Piano-di-Progetto.pdf",
           "type": "file",
-          "size": 3857077
+          "size": 4237256
         },
         {
           "name": "Piano-di-Qualifica.pdf",
@@ -229,6 +229,11 @@
                   "name": "2025-04-09_Coordinamento-sprint12.pdf",
                   "type": "file",
                   "size": 413152
+                },
+                {
+                  "name": "2025-04-17_Coordinamento-sprint-13.pdf",
+                  "type": "file",
+                  "size": 415773
                 },
                 {
                   "name": "2025-03-31_Coordinamento-sprint-11.pdf",
@@ -263,7 +268,12 @@
         {
           "name": "Analisi-dei-Requisiti.pdf",
           "type": "file",
-          "size": 1091463
+          "size": 7839172
+        },
+        {
+          "name": "Manuale-Utente.pdf",
+          "type": "file",
+          "size": 454830
         }
       ]
     },
