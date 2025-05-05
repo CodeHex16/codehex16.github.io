@@ -150,13 +150,12 @@ section h3 {
 .verbali {
 	display: grid;
 	grid-template-columns: auto auto;
-	justify-items: center;
+	justify-items: start;
 	justify-content: space-between;
 	gap: 2em;
 }
 .link-lettera{
 	grid-column: span 2;
-	text-align: center;
 	
 }
 
@@ -355,4 +354,5 @@ dd::after {
 	.verbali > div {
 		min-width: 0;
 	}
+
 }
