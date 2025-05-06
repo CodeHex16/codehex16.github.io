@@ -215,7 +215,7 @@
         {
           "name": "Norme-di-Progetto.pdf",
           "type": "file",
-          "size": 691774
+          "size": 694412
         },
         {
           "name": "verbali",
@@ -273,6 +273,11 @@
                 },
                 {
                   "name": "2025-05-05_Incontro_Ergon.pdf",
+                  "type": "file",
+                  "size": 411954
+                },
+                {
+                  "name": "2025-05-05_Incontro-Ergon.pdf",
                   "type": "file",
                   "size": 411954
                 }
