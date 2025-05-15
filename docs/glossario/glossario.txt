@@ -57,8 +57,7 @@ Sistema numerico in base 16 che utilizza i simboli 0-9 e le lettere A-F per rapp
 == Feedback
 Il feedback è un processo di comunicazione in cui vengono fornite informazioni, opinioni o valutazioni su un determinato argomento o attività. Il feedback può essere positivo o negativo e può essere utilizzato per migliorare le prestazioni, correggere errori, rafforzare comportamenti desiderati o valutare il successo di un progetto. Il feedback è un elemento chiave nel processo di apprendimento, sviluppo e miglioramento continuo.
 == Fornitore
-Il fornitore è l'ente o l'organizzazione che fornisce beni o servizi a un committente in base a un contratto o un accordo. Il fornitore può essere un'azienda, un'istituzione, un'organizzazione non governativa o un individuo che offre prodotti o servizi specifici. Il fornitore è responsabile della realizzazione e della consegna dei beni o servizi richiesti dal committente.
-// TODO: da rendere più attinente al nostro progetto
+Il fornitore è l'ente o l'organizzazione che fornisce beni o servizi a un committente in base a un contratto o un accordo. Il fornitore può essere un'azienda, un'istituzione, un'organizzazione non governativa o un individuo che offre prodotti o servizi specifici. Il fornitore è responsabile della realizzazione e della consegna dei beni o servizi richiesti dal committente. Nel nostro caso, il fornitore è l'ente che offre una sua versione del chatbot e dell'applicazione ai clienti.
 == FAQ
 Acronimo di "Frequently Asked Questions", indica una raccolta di domande e risposte frequenti su un determinato argomento.
 == Frontend
@@ -92,7 +91,6 @@ Unità di testo elaborate da un modello di intelligenza artificiale, includono p
 Un'interfaccia web è un'interfaccia utente basata su web che consente agli utenti di interagire con un'applicazione o un sistema tramite un browser web. Le interfacce web possono includere elementi come pulsanti, menu, form, tabelle e grafici per consentire agli utenti di navigare, inserire dati, visualizzare informazioni e interagire con il sistema. Le interfacce web sono progettate per essere intuitive, responsive e accessibili da diversi dispositivi e piattaforme.
 == ITS(Issue Tracking System)
 Un sistema di tracciamento delle issue è uno strumento software utilizzato per registrare, monitorare e gestire le issue all'interno di un progetto. Gli ITS consentono di creare, assegnare, commentare e risolvere le issue in modo collaborativo e organizzato. Gli ITS sono utilizzati per tenere traccia dei problemi, dei bug, delle richieste di funzionalità e delle attività all'interno di un progetto e facilitano la comunicazione e la collaborazione tra i membri del team.
-
 = J 
 == JavaScript
 Linguaggio di programmazione versatile utilizzato principalmente per sviluppare funzionalità interattive e dinamiche sulle pagine web.
@@ -102,7 +100,6 @@ Un LLM (Large Language Model) è un modello linguistico di intelligenza artifici
 = M
 == Main(Branch)
 Il branch principale è il branch principale di un repository Git, che contiene il codice sorgente stabile e funzionante del progetto. Il branch principale è spesso chiamato "main" o "master" ed è utilizzato come punto di riferimento per il codice sorgente ufficiale del progetto. Tutte le modifiche e le nuove funzionalità vengono sviluppate in branch separati e integrate nel branch principale tramite pull request.
-
 == Meeting
 Un incontro formale o informale tra due o più persone per discutere, condividere informazioni, prendere decisioni o risolvere problemi. I meeting possono essere organizzati in vari formati, come riunioni fisiche, virtuali o ibride, e hanno l'obiettivo di favorire la collaborazione e la comunicazione tra i partecipanti.
 == Memoria Locale
@@ -147,7 +144,7 @@ Una pull request è una richiesta di integrazione di un branch o di un set di mo
 RTB è l'acronimo di "Requirements and Technology Baseline". Si tratta di una fase del processo di sviluppo software in cui vengono definiti i requisiti del sistema e le tecnologie da utilizzare per la sua realizzazione. Durante la fase di RTB vengono identificati i requisiti funzionali e non funzionali del sistema, le interfacce utente, le tecnologie di sviluppo e le risorse necessarie per il progetto.
 = S
 == Specifica Tecnica
-// TODO
+La Specifica Tecnica è un documento che descrive in dettaglio le caratteristiche di un software. Comprende una descrizione dettagliata dell'architettura, delle tecnologie e dei requisiti soddisfatti del sistema. 
 == Sprint
 Lo sprint è un'unità di tempo fissa utilizzata nello sviluppo software agile per pianificare e organizzare il lavoro del team. Durante uno sprint, il team si impegna a completare un insieme di attività definite in anticipo, chiamate "elementi di sprint". Gli sprint hanno una durata fissa, solitamente compresa tra una e quattro settimane, e si concludono con una revisione e una valutazione dei risultati ottenuti.
 == Sprint Planning
@@ -165,7 +162,7 @@ Nome del nostro prodotto scelto perché racchiude i concetti di: supply che rich
 == Svelte
 Framework JavaScript per lo sviluppo di interfacce utente, che consente di scrivere codice reattivo compilato in JavaScript ottimizzato, migliorando le prestazioni delle applicazioni web.
 == SvelteKit
-// TODO
+Framework basato su Svelte per la creazione di applicazioni web complete, che offre funzionalità avanzate come il rendering lato server, la gestione delle rotte e l'integrazione con API esterne.
 = T
 == Task
 Una task è un'attività o un compito specifico che deve essere completato entro un determinato periodo di tempo. Le task sono utilizzate per organizzare il lavoro, definire le responsabilità e monitorare lo stato di avanzamento di un progetto. Le task possono essere suddivise in attività più piccole, assegnate a singoli membri del team e monitorate tramite strumenti di gestione delle attività.
@@ -178,11 +175,12 @@ Unità minima di testo elaborata da un modello di intelligenza artificiale, come
 == Top-down
 Il top-down è un approccio di sviluppo software che prevede la definizione dei requisiti e delle specifiche generali del sistema prima di procedere con la progettazione e l'implementazione dei dettagli. In un approccio top-down, si parte da una visione ad alto livello del sistema e si procede a suddividerla in componenti più piccole e dettagliate. Il top-down è utilizzato per definire l'architettura e la struttura generale del sistema prima di passare ai dettagli implementativi.
 == TypeScript
-// TODO
+Linguaggio di programmazione open source sviluppato da Microsoft, basato su JavaScript e progettato per migliorare la produttività degli sviluppatori attraverso l'uso di tipi statici e funzionalità avanzate. In questo progetto, TypeScript è utilizzato per collegare il frontend con il backend attraverso chiamate API.
 == Typst
 Typst è un linguaggio di markup testuale sviluppato appositamente per la stesura di documenti. È stato scelto per la sua semplicità d'uso e la versatilità.
 = U
 == UI
+User Interface, ovvero l'interfaccia utente, è la parte di un sistema software con cui gli utenti interagiscono. L'UI comprende elementi visivi, come pulsanti, menu, finestre e grafica, che consentono agli utenti di navigare e utilizzare il sistema in modo intuitivo e interattivo.
 == UML
 Acronimo di "Unified Modeling Language", è un linguaggio di modellazione standardizzato utilizzato per visualizzare, specificare, progettare e documentare sistemi software e processi aziendali.
 == Use Case
@@ -190,7 +188,7 @@ Un use case è un'istanza di interazione tra un attore esterno e un sistema soft
 == User-friendly
 User-friendly è un termine utilizzato per descrivere un prodotto, un'interfaccia o un servizio che è facile da usare, intuitivo e accessibile agli utenti. Un prodotto user-friendly è progettato per soddisfare le esigenze degli utenti, semplificare le operazioni e migliorare l'esperienza utente.
 == UX
-
+User Experience, ovvero l'esperienza utente, è il complesso delle emozioni, delle percezioni e delle reazioni degli utenti durante l'interazione con un prodotto, un servizio o un sistema. L'UX comprende aspetti come l'usabilità, la soddisfazione, l'accessibilità e l'efficacia del prodotto. Un'ottima esperienza utente è fondamentale per garantire la soddisfazione degli utenti e il successo di un prodotto o servizio.
 = V
 == Vue.js
 Framework JavaScript progressivo per la creazione di interfacce utente, noto per la sua semplicità, flessibilità e capacità di integrazione con altri progetti o librerie.
