@@ -9,7 +9,7 @@
         {
           "name": "Valutazione-Capitolati.pdf",
           "type": "file",
-          "size": 451183
+          "size": 451569
         },
         {
           "name": "Lettera-di-candidatura.pdf",
@@ -19,7 +19,7 @@
         {
           "name": "Preventivo-Costi-e-Impegni.pdf",
           "type": "file",
-          "size": 411585
+          "size": 411771
         },
         {
           "name": "verbali",
@@ -83,7 +83,7 @@
         {
           "name": "Piano-di-Progetto.pdf",
           "type": "file",
-          "size": 3129121
+          "size": 3130802
         },
         {
           "name": "Presentazione-RTB.pdf",
@@ -114,12 +114,12 @@
         {
           "name": "Norme-di-Progetto.pdf",
           "type": "file",
-          "size": 552446
+          "size": 553346
         },
         {
           "name": "Analisi-dei-Requisiti.pdf",
           "type": "file",
-          "size": 1071706
+          "size": 1073271
         },
         {
           "name": "presentazione",
@@ -135,7 +135,7 @@
         {
           "name": "Piano-di-Qualifica.pdf",
           "type": "file",
-          "size": 827411
+          "size": 826884
         },
         {
           "name": "verbali",
@@ -371,32 +371,32 @@
         {
           "name": "Piano-di-Progetto.pdf",
           "type": "file",
-          "size": 5316381
+          "size": 5315680
         },
         {
           "name": "Manuale-Utente.pdf",
           "type": "file",
-          "size": 6015983
+          "size": 6018344
         },
         {
           "name": "Specifica-Tecnica.pdf",
           "type": "file",
-          "size": 495783
+          "size": 3465274
         },
         {
           "name": "Norme-di-Progetto.pdf",
           "type": "file",
-          "size": 666940
+          "size": 672302
         },
         {
           "name": "Analisi-dei-Requisiti.pdf",
           "type": "file",
-          "size": 8114062
+          "size": 8113461
         },
         {
           "name": "Piano-di-Qualifica.pdf",
           "type": "file",
-          "size": 1192152
+          "size": 1193094
         },
         {
           "name": "verbali",
@@ -415,6 +415,11 @@
                   "name": "2025-05-05_Incontro_Ergon.pdf",
                   "type": "file",
                   "size": 411954
+                },
+                {
+                  "name": "2025-04-02_Incontro-prof-Cardin.pdf",
+                  "type": "file",
+                  "size": 410222
                 },
                 {
                   "name": "2025-04-02_Incontro_prof_Cardin.pdf",
